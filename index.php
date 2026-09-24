@@ -23,7 +23,7 @@ if ($isAdmin) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Electronics</title>
+  <title>Feira Moderna</title>
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -66,8 +66,8 @@ if ($isAdmin) {
 
   <!-- Header -->
   <header class="text-center py-4">
-    <h1 class="display-4">Modern Electronics</h1>
-    <h2 class="fs-4">Electronics & Accessories</h2>
+    <h1 class="display-4">Feira Moderna</h1>
+    <h2 class="fs-4">Order Household Items</h2>
   </header>
 
   <!-- Error -->
@@ -82,9 +82,11 @@ if ($isAdmin) {
   <section class="container-fluid my-4">
     <div class="d-flex flex-wrap justify-content-center gap-2" id="category-filter">
       <button class="btn btn-outline-success active" data-category="all">All</button>
-      <button class="btn btn-outline-success" data-category="1">Accessories</button>
-      <button class="btn btn-outline-success" data-category="2">Electronics</button>
-      
+      <button class="btn btn-outline-success" data-category="1">Cookware</button>
+      <button class="btn btn-outline-success" data-category="2">Utensils</button>
+      <button class="btn btn-outline-success" data-category="3">Appliances</button>
+      <button class="btn btn-outline-success" data-category="4">Tableware</button>
+      <button class="btn btn-outline-success" data-category="5">Cutlery</button>
     </div>
   </section>
   
@@ -187,7 +189,7 @@ if ($isAdmin) {
         <li>Click a product to view details</li>
         <li><strong>Login to add to cart</strong></li>
         <li>Use + / – buttons in cart to adjust quantity</li>
-        <li>Click remove button to remove item</li>
+        <li>Click trash to remove item</li>
       </ul>
     </div>
   </div>
@@ -261,75 +263,27 @@ if ($isAdmin) {
     <div class="popup-content" onclick="event.stopPropagation();">
       <button class="close-popup" onclick="closePopup()">X</button>
       <h2><i class="fas fa-key"></i> Reset Password</h2>
-     <form id="forgotPasswordForm" action="php/send_reset_otp.php" method="POST">
+      <form action="php/send_reset_otp.php" method="POST">
         <div class="input-group mb-2">
           <span class="input-group-text"><i class="fas fa-envelope"></i></span>
-        
-          <input type="email" class="form-control" name="email" id="forgot-email" placeholder="Your Email" required>
+          <input type="email" class="form-control" name="email" placeholder="Your Email" required>
         </div>
         <button type="submit" class="btn btn-primary w-100">Send Reset Link</button>
       </form>
-      
     </div>
   </div>
-<script>
-  
-  document.getElementById('forgotPasswordForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  console.log('Forgot password form submitted');
 
-  const email = document.getElementById('forgot-email').value.trim();
-  const submitBtn = this.querySelector('button[type="submit"]');
-  
-  if (!email) {
-    showToast('Please enter your email', false);
-    return;
-  }
-
-  const originalBtnText = submitBtn.textContent;   // ← Changed
-
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Sending...';            // ← Changed
-
-  fetch('php/send_reset_otp.php', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: `email=${encodeURIComponent(email)}`
-  })
-    .then(response => {
-      if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-      return response.json();
-    })
-    .then(data => {
-      console.log('Forgot password response:', data);
-      
-      submitBtn.disabled = false;
-      submitBtn.textContent = originalBtnText;     // ← Changed
-
-      showToast(data.message, data.success);
-      if (data.success) {
-        closePopup();
-      }
-    })
-    .catch(error => {
-      console.error('Error sending reset email:', error);
-      
-      submitBtn.disabled = false;
-      submitBtn.textContent = originalBtnText;     // ← Changed
-      
-      showToast('Failed to send reset email. Please try again.', false);
-    });
-});
-</script>
   <?php include('php/includes/footer.php'); ?>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script> const isLoggedIn = <?= $isLoggedIn ? 'true' : 'false' ?>;</script>
   <script src="files/index.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Custom JS -->
-
+  <!-- <script src="afiles/script.js"></script>
+   ==================== JAVASCRIPT ==================== -->
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   
 </body>
 </html>
