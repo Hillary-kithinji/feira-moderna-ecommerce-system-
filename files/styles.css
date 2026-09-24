@@ -1,0 +1,656 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  background-color: #4CAF50;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Yatra One', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: white;
+  color: #08ca12;
+  padding: 8px 14px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(14, 13, 13, 0.2);
+  margin-right: 15px; /* Prevent overlap with Home button */
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 16px;
+  padding: 8px 12px;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.dropdown-menu {
+  background-color: #41b847;
+  border: none;
+  border-radius: 5px;
+}
+
+.dropdown-item {
+  color: white;
+  font-size: 14px;
+}
+
+.dropdown-item:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon .badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #a02e2e;
+  color: rgb(212, 193, 193);
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.search-bar .input-group {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.search-bar .form-control {
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+}
+
+.search-bar .btn {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  color: rgb(192, 187, 187);
+  border-radius: 0 5px 5px 0;
+  font-size: 14px;
+}
+
+header {
+  background-color: #29bb31;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Yatra One', cursive;
+}
+
+header h1, header h2 {
+  margin: 0;
+  padding: 2px 0;
+  line-height: 1.2;
+}
+
+.welcome-message {
+  color: white;
+  font-size: 16px;
+  padding: 8px 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8px;
+  padding: 0; /* Remove default padding */
+  margin: 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .products {
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    justify-items: start;
+  }
+
+  .product-card {
+    font-size: 12px;
+    padding: 6px;
+    width: 100%; /* Ensures cards expand properly */
+  }
+
+  .product-card .carousel {
+    max-height: 90px;
+  }
+
+  .product-card .carousel-inner,
+  .product-card .carousel-item img {
+    height: 90px;
+  }
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+.product-card .carousel {
+  width: 100%;
+  max-height: 100px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.product-card .carousel-inner {
+  height: 100px;
+}
+
+.product-card .carousel-item img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.product-card .carousel-control-prev,
+.product-card .carousel-control-next {
+  width: 10%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.product-card .carousel-control-prev-icon,
+.product-card .carousel-control-next-icon {
+  background-color: #4CAF50;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.product-card h3 {
+  font-size: 12px;
+  margin: 4px 0;
+}
+
+.product-card p {
+  font-size: 10px;
+  color: #555;
+}
+
+.product-card .btn {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  font-size: 10px;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 6px 0;
+}
+
+.quantity-control button {
+  background-color: #29bb31;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quantity-control button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.quantity-control input {
+  width: 30px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.cart-item .quantity-control input {
+  width: 50px; /* Increased width for better visibility */
+  font-size: 14px; /* Increased font size for readability */
+}
+
+.pagination {
+  justify-content: center;
+  margin: 20px 0;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    display: flex;
+  }
+}
+
+.pagination .page-link {
+  color: #4CAF50;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  color: white;
+}
+
+.modal-content {
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.modal-header .modal-title {
+  font-family: 'Yatra One', cursive;
+}
+
+.modal-body .form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.modal-body .form-group i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #4CAF50;
+}
+
+.modal-body .form-control {
+  padding-left: 40px;
+}
+
+.modal-body .quantity-control {
+  margin: 15px 0;
+}
+
+#detailCarousel .carousel-inner {
+  max-height: 300px;
+}
+
+#detailCarousel .carousel-item img {
+  max-height: 300px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-details p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.cart-total {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+
+.order-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border: 2px solid #4CAF50;
+}
+
+.popup-content h2 {
+  color: #4CAF50;
+  font-family: 'Yatra One', cursive;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.popup-content .form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.popup-content .form-group i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #4CAF50;
+}
+
+.popup-content .form-group i.fa-eye,
+.popup-content .form-group i.fa-eye-slash {
+  left: auto;
+  right: 10px;
+  cursor: pointer;
+}
+
+.popup-content .form-control {
+  padding-left: 40px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.popup-content .form-control.textarea {
+  padding-left: 40px;
+  height: 100px;
+}
+
+.popup-content .btn-primary {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+}
+
+.popup-content .btn-primary:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #4CAF50;
+}
+
+.thank-you-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1001;
+  border: 2px solid #4CAF50;
+}
+
+footer {
+  background-color: #29bb31;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 8px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 28px;
+    padding: 6px 12px;
+  }
+
+  .navbar-nav .nav-link,
+  .welcome-message {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .welcome-message {
+    max-width: 150px;
+  }
+
+  .search-bar .input-group {
+    width: 90%;
+  }
+
+  .popup-content,
+  .modal-content {
+    width: 95%;
+    padding: 15px;
+  }
+}
+
+.loading-message {
+  text-align: center;
+  margin: 20px;
+  color: #555;
+}
+
+.error-message {
+  text-align: center;
+  margin: 20px;
+  color: red;
+}
+
+/* Black arrows for carousel */
+#detailCarousel .carousel-control-prev-icon,
+#detailCarousel .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background-size: 15px 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: invert(0);
+}
+
+/* Target your modal dialog */
+#productDetailModal .modal-dialog {
+  max-width: 600px;  /* reduce width (default is ~800px for modal-lg) */
+  margin: 1.75rem auto; /* keep centered */
+}
+
+/* Optionally reduce modal content padding */
+#productDetailModal .modal-content {
+  padding: 15px;
+}
+
+/* Reduce modal body font size if needed */
+#productDetailModal .modal-body {
+  font-size: 14px;
+}
+
+/* If you want to limit modal height and add scroll */
+#productDetailModal .modal-body {
+  max-height: 60vh; /* viewport height */
+  overflow-y: auto;
+}
+
+/* Hide quantity controls in product cards */
+.product-card .quantity-control {
+  display: none !important;
+}
+
+/* Ensure quantity controls are visible in cart modal */
+.cart-item .quantity-control,
+.cart-item .quantity-control button,
+.cart-item .quantity-control button i.fas.fa-plus,
+.cart-item .quantity-control button i.fas.fa-minus,
+.cart-item .quantity-control input {
+  display: inline-block !important;
+}
+
+.star-rating-input {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.star-rating-input input {
+    display: none;
+}
+.star-rating-input label {
+    font-size: 1.5em;
+    color: #ddd;
+    cursor: pointer;
+}
+.star-rating-input input:checked ~ label,
+.star-rating-input label:hover,
+.star-rating-input label:hover ~ label {
+    color: #f39c12;
+}
+
+/* Keep quantity field hidden in product detail modal */
+#productDetailModal .quantity-control,
+#productDetailModal #detail-quantity {
+  display: none !important;
+}
+
+/* Keep quantity field hidden in product modal */
+#productForm .form-group:has(#modal-quantity),
+#modal-quantity {
+  display: none !important;
+}
+
+.navbar .right-section {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.popup {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+  padding: 20px;
+  overflow-y: auto;
+}
+.popup-content {
+  background:#fff;
+  padding:25px;
+  border-radius:12px;
+  width:100%;
+  max-width:500px;
+  box-shadow:0 8px 25px rgba(0,0,0,.2);
+  border:2px solid #4CAF50;
+  position:relative;
+}
+.close-popup{
+  position:absolute;top:10px;right:15px;
+  background:none;border:none;font-size:24px;color:#4CAF50;cursor:pointer;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.form-group i:first-child {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #4CAF50;
+  z-index: 2;
+}
+.form-group input,
+.form-group textarea {
+  padding-left: 40px !important;
+}
+.form-group .fa-eye,
+.form-group .fa-eye-slash {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #4CAF50;
+}
+#category-filter .btn.active {
+  background:#4CAF50;color:#fff;
+}

@@ -1,0 +1,1801 @@
+[2025-09-08 17:46:57] Starting update_product.php
+[2025-09-08 17:46:57] Received POST data: {"variantColor":["Red","Red","Black","Black"],"variantSize":["Small","Medium","Small","Medium"],"variantAdditionalPrice":["0.00","200.00","0.00","200.00"],"variantStock":["20","15","10","5"],"variants":"[{\"color\":\"Red\",\"size\":\"Small\",\"additional_price\":0,\"stock\":20},{\"color\":\"Red\",\"size\":\"Medium\",\"additional_price\":200,\"stock\":15},{\"color\":\"Black\",\"size\":\"Small\",\"additional_price\":0,\"stock\":10},{\"color\":\"Black\",\"size\":\"Medium\",\"additional_price\":200,\"stock\":5}]"}
+[2025-09-08 17:46:57] Received FILES data: {"productImages":{"name":["7db6b1c8-2bdd-4c6b-9719-ee112e40f46b (2).png"],"full_path":["7db6b1c8-2bdd-4c6b-9719-ee112e40f46b (2).png"],"type":["image\/png"],"tmp_name":["C:\\xampp\\tmp\\php8C66.tmp"],"error":[0],"size":[15447516]}}
+[2025-09-08 17:46:57] Validation failed: Missing required fields (id: '', name: '', category_id: '', selling_price: '0')
+[2025-09-08 17:46:57] Error occurred: Required fields (id, name, category, selling price) are missing
+[2025-09-08 17:51:25] Starting update_product.php
+[2025-09-08 17:51:25] Received POST data: {"editProductId":"1","editProductName":"Non-Stick Frying Pan","editProductCategory":"1","editProductStock":"50","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"A durable non-stick frying pan perfect for everyday cooking.","variantColor":["Red","Red","Black","Black"],"variantSize":["Small","Medium","Small","Medium"],"variantAdditionalPrice":["0.00","200.00","0.00","200.00"],"variantStock":["20","15","10","5"],"variants":"[{\"color\":\"Red\",\"size\":\"Small\",\"additional_price\":0,\"stock\":20},{\"color\":\"Red\",\"size\":\"Medium\",\"additional_price\":200,\"stock\":15},{\"color\":\"Black\",\"size\":\"Small\",\"additional_price\":0,\"stock\":10},{\"color\":\"Black\",\"size\":\"Medium\",\"additional_price\":200,\"stock\":5}]"}
+[2025-09-08 17:51:25] Received FILES data: {"productImages":{"name":[""],"full_path":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-08 17:51:25] Validated input: id=1, name='Non-Stick Frying Pan', category_id=1, stock=50, buying_price=1500.00, selling_price=2500.00
+[2025-09-08 17:51:25] Fetching existing images for product ID: 1
+[2025-09-08 17:51:25] Existing images: 
+[2025-09-08 17:51:25] No new images uploaded
+[2025-09-08 17:51:25] Starting database transaction
+[2025-09-08 17:51:25] Updating product in database
+[2025-09-08 17:51:25] Product updated successfully
+[2025-09-08 17:51:25] Deleting existing variants for product ID: 1
+[2025-09-08 17:51:25] Existing variants deleted
+[2025-09-08 17:51:25] Processing variants: [{"color":"Red","size":"Small","additional_price":0,"stock":20},{"color":"Red","size":"Medium","additional_price":200,"stock":15},{"color":"Black","size":"Small","additional_price":0,"stock":10},{"color":"Black","size":"Medium","additional_price":200,"stock":5}]
+[2025-09-08 17:51:25] Inserting variant: color='Red', size='Small', additional_price=0, stock=20
+[2025-09-08 17:51:25] Variant inserted successfully
+[2025-09-08 17:51:25] Inserting variant: color='Red', size='Medium', additional_price=200, stock=15
+[2025-09-08 17:51:25] Variant inserted successfully
+[2025-09-08 17:51:25] Inserting variant: color='Black', size='Small', additional_price=0, stock=10
+[2025-09-08 17:51:25] Variant inserted successfully
+[2025-09-08 17:51:25] Inserting variant: color='Black', size='Medium', additional_price=200, stock=5
+[2025-09-08 17:51:25] Variant inserted successfully
+[2025-09-08 17:51:25] Committing transaction
+[2025-09-08 17:51:25] Product and variants updated successfully
+[2025-09-08 17:51:37] Starting update_product.php
+[2025-09-08 17:51:37] Received POST data: {"editProductId":"1","editProductName":"Non-Stick Frying Pan","editProductCategory":"1","editProductStock":"50","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2600.00","editProductDescription":"A durable non-stick frying pan perfect for everyday cooking.","variantColor":["Red","Red","Black","Black"],"variantSize":["Small","Medium","Small","Medium"],"variantAdditionalPrice":["0.00","200.00","0.00","200.00"],"variantStock":["20","15","10","5"],"variants":"[{\"color\":\"Red\",\"size\":\"Small\",\"additional_price\":0,\"stock\":20},{\"color\":\"Red\",\"size\":\"Medium\",\"additional_price\":200,\"stock\":15},{\"color\":\"Black\",\"size\":\"Small\",\"additional_price\":0,\"stock\":10},{\"color\":\"Black\",\"size\":\"Medium\",\"additional_price\":200,\"stock\":5}]"}
+[2025-09-08 17:51:37] Received FILES data: {"productImages":{"name":[""],"full_path":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-08 17:51:37] Validated input: id=1, name='Non-Stick Frying Pan', category_id=1, stock=50, buying_price=1500.00, selling_price=2600.00
+[2025-09-08 17:51:37] Fetching existing images for product ID: 1
+[2025-09-08 17:51:37] Existing images: 
+[2025-09-08 17:51:37] No new images uploaded
+[2025-09-08 17:51:37] Starting database transaction
+[2025-09-08 17:51:37] Updating product in database
+[2025-09-08 17:51:37] Product updated successfully
+[2025-09-08 17:51:37] Deleting existing variants for product ID: 1
+[2025-09-08 17:51:37] Existing variants deleted
+[2025-09-08 17:51:37] Processing variants: [{"color":"Red","size":"Small","additional_price":0,"stock":20},{"color":"Red","size":"Medium","additional_price":200,"stock":15},{"color":"Black","size":"Small","additional_price":0,"stock":10},{"color":"Black","size":"Medium","additional_price":200,"stock":5}]
+[2025-09-08 17:51:37] Inserting variant: color='Red', size='Small', additional_price=0, stock=20
+[2025-09-08 17:51:37] Variant inserted successfully
+[2025-09-08 17:51:37] Inserting variant: color='Red', size='Medium', additional_price=200, stock=15
+[2025-09-08 17:51:37] Variant inserted successfully
+[2025-09-08 17:51:37] Inserting variant: color='Black', size='Small', additional_price=0, stock=10
+[2025-09-08 17:51:37] Variant inserted successfully
+[2025-09-08 17:51:37] Inserting variant: color='Black', size='Medium', additional_price=200, stock=5
+[2025-09-08 17:51:37] Variant inserted successfully
+[2025-09-08 17:51:37] Committing transaction
+[2025-09-08 17:51:37] Product and variants updated successfully
+[2025-09-08 17:51:49] Starting update_product.php
+[2025-09-08 17:51:49] Received POST data: {"editProductId":"1","editProductName":"Non-Stick Frying Pan","editProductCategory":"1","editProductStock":"50","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2600.00","editProductDescription":"A durable non-stick frying pan perfect for everyday cooking.","variantColor":["Red","Red","Black","Black"],"variantSize":["Small","Medium","Small","Medium"],"variantAdditionalPrice":["0.00","200.00","0.00","200.00"],"variantStock":["20","15","10","5"],"variants":"[{\"color\":\"Red\",\"size\":\"Small\",\"additional_price\":0,\"stock\":20},{\"color\":\"Red\",\"size\":\"Medium\",\"additional_price\":200,\"stock\":15},{\"color\":\"Black\",\"size\":\"Small\",\"additional_price\":0,\"stock\":10},{\"color\":\"Black\",\"size\":\"Medium\",\"additional_price\":200,\"stock\":5}]"}
+[2025-09-08 17:51:49] Received FILES data: {"productImages":{"name":["drskenya logo.png"],"full_path":["drskenya logo.png"],"type":["image\/png"],"tmp_name":["C:\\xampp\\tmp\\php27E.tmp"],"error":[0],"size":[1873824]}}
+[2025-09-08 17:51:49] Validated input: id=1, name='Non-Stick Frying Pan', category_id=1, stock=50, buying_price=1500.00, selling_price=2600.00
+[2025-09-08 17:51:49] Fetching existing images for product ID: 1
+[2025-09-08 17:51:49] Existing images: 
+[2025-09-08 17:51:49] Processing image uploads
+[2025-09-08 17:51:49] Attempting to move uploaded file to: images/product_68befb95e5c68.png
+[2025-09-08 17:51:49] Successfully uploaded image: images/product_68befb95e5c68.png
+[2025-09-08 17:51:49] Starting database transaction
+[2025-09-08 17:51:49] Updating product in database
+[2025-09-08 17:51:49] Product updated successfully
+[2025-09-08 17:51:49] Deleting existing variants for product ID: 1
+[2025-09-08 17:51:49] Existing variants deleted
+[2025-09-08 17:51:49] Processing variants: [{"color":"Red","size":"Small","additional_price":0,"stock":20},{"color":"Red","size":"Medium","additional_price":200,"stock":15},{"color":"Black","size":"Small","additional_price":0,"stock":10},{"color":"Black","size":"Medium","additional_price":200,"stock":5}]
+[2025-09-08 17:51:49] Inserting variant: color='Red', size='Small', additional_price=0, stock=20
+[2025-09-08 17:51:49] Variant inserted successfully
+[2025-09-08 17:51:49] Inserting variant: color='Red', size='Medium', additional_price=200, stock=15
+[2025-09-08 17:51:49] Variant inserted successfully
+[2025-09-08 17:51:49] Inserting variant: color='Black', size='Small', additional_price=0, stock=10
+[2025-09-08 17:51:49] Variant inserted successfully
+[2025-09-08 17:51:49] Inserting variant: color='Black', size='Medium', additional_price=200, stock=5
+[2025-09-08 17:51:49] Variant inserted successfully
+[2025-09-08 17:51:49] Committing transaction
+[2025-09-08 17:51:49] Product and variants updated successfully
+[2025-09-08 17:52:43] Starting add_product.php
+[2025-09-08 17:52:43] Received POST data: {"variantColor":["Red"],"variantSize":["Small"],"variantAdditionalPrice":["20"],"variantStock":["1"],"variants":"[{\"color\":\"Red\",\"size\":\"Small\",\"additional_price\":20,\"stock\":1}]"}
+[2025-09-08 17:52:43] Received FILES data: {"productImages":{"name":["Cybriel Logo (1).png"],"full_path":["Cybriel Logo (1).png"],"type":["image\/png"],"tmp_name":["C:\\xampp\\tmp\\phpD252.tmp"],"error":[0],"size":[19157072]}}
+[2025-09-08 17:52:43] Validation failed: Missing required fields (name: '', category_id: '', selling_price: '0')
+[2025-09-08 17:52:43] Error occurred: Required fields (name, category, selling price) are missing
+[2025-09-08 18:00:49] Starting add_product.php
+[2025-09-08 18:00:49] Received POST data: {"productName":"Test2","productCategory":"2","productStock":"2","productBuyingPrice":"250","productSellingPrice":"290","productDescription":"w","variantColor":["Blpo"],"variantSize":["Kids"],"variantAdditionalPrice":["20"],"variantStock":["2"],"variants":"[{\"color\":\"Blpo\",\"size\":\"Kids\",\"additional_price\":20,\"stock\":2}]"}
+[2025-09-08 18:00:49] Received FILES data: {"productImages":{"name":["drskenya logo.png"],"full_path":["drskenya logo.png"],"type":["image\/png"],"tmp_name":["C:\\xampp\\tmp\\php3F34.tmp"],"error":[0],"size":[1873824]}}
+[2025-09-08 18:00:49] Calculated total stock from variants: 2
+[2025-09-08 18:00:49] Validated input: name='Test2', category_id=2, stock=2, buying_price=250, selling_price=290
+[2025-09-08 18:00:49] Processing image uploads
+[2025-09-08 18:00:49] Attempting to move uploaded file to: images/product_68befdb1bcd89.png
+[2025-09-08 18:00:49] Successfully uploaded image: images/product_68befdb1bcd89.png
+[2025-09-08 18:00:49] Starting database transaction
+[2025-09-08 18:00:49] Inserting product into database
+[2025-09-08 18:00:49] Product inserted with ID: 13
+[2025-09-08 18:00:49] Processing variants: [{"color":"Blpo","size":"Kids","additional_price":20,"stock":2}]
+[2025-09-08 18:00:49] Inserting variant: color='Blpo', size='Kids', additional_price=20, stock=2
+[2025-09-08 18:00:49] Variant inserted successfully
+[2025-09-08 18:00:49] Committing transaction
+[2025-09-08 18:00:49] Product and variants added successfully
+[2025-09-08 20:45:02] Starting update_product.php
+[2025-09-08 20:45:02] Received POST data: {"editProductId":"4","editProductName":"Ceramic Dinner Plate Set","editProductCategory":"4","editProductStock":"60","editProductBuyingPrice":"500.00","editProductSellingPrice":"750","editProductDescription":"A set of four elegant ceramic dinner plates.","variantColor":["White","Black"],"variantSize":["Medium","Medium"],"variantAdditionalPrice":["0.00","0.00"],"variantStock":["30","30"],"variants":"[{\"color\":\"White\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":30},{\"color\":\"Black\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":30}]"}
+[2025-09-08 20:45:02] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-08 20:45:02] Calculated total stock from variants: 60
+[2025-09-08 20:45:02] Validated input: id=4, name='Ceramic Dinner Plate Set', category_id=4, stock=60, buying_price=500.00, selling_price=750
+[2025-09-08 20:45:02] Fetching existing images for product ID: 4
+[2025-09-08 20:45:02] Existing images: https://via.placeholder.com/150?text=Dinner+Plate
+[2025-09-08 20:45:02] No new images uploaded
+[2025-09-08 20:45:02] Starting database transaction
+[2025-09-08 20:45:02] Updating product in database
+[2025-09-08 20:45:02] Product updated successfully
+[2025-09-08 20:45:02] Deleting existing variants for product ID: 4
+[2025-09-08 20:45:02] Delete variants failed: Cannot delete or update a parent row: a foreign key constraint fails (`feira_moderna`.`order_items`, CONSTRAINT `order_items_ibfk_3` FOREIGN KEY (`variant_id`) REFERENCES `product_variants` (`id`))
+[2025-09-08 20:45:02] Error occurred: Failed to delete existing variants: Cannot delete or update a parent row: a foreign key constraint fails (`feira_moderna`.`order_items`, CONSTRAINT `order_items_ibfk_3` FOREIGN KEY (`variant_id`) REFERENCES `product_variants` (`id`))
+[2025-09-08 20:47:29] Starting update_product.php
+[2025-09-08 20:47:29] Received POST data: {"editProductId":"4","editProductName":"Ceramic Dinner Plate Set","editProductCategory":"4","editProductStock":"60","editProductBuyingPrice":"500.00","editProductSellingPrice":"750","editProductDescription":"A set of four elegant ceramic dinner plates.","variantColor":["White","Black"],"variantSize":["Medium","Medium"],"variantAdditionalPrice":["0.00","0.00"],"variantStock":["30","30"],"variants":"[{\"color\":\"White\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":30},{\"color\":\"Black\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":30}]"}
+[2025-09-08 20:47:29] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-08 20:47:29] Calculated total stock from variants: 60
+[2025-09-08 20:47:29] Validated input: id=4, name='Ceramic Dinner Plate Set', category_id=4, stock=60, buying_price=500.00, selling_price=750
+[2025-09-08 20:47:29] Fetching existing images for product ID: 4
+[2025-09-08 20:47:29] Existing images: https://via.placeholder.com/150?text=Dinner+Plate
+[2025-09-08 20:47:29] No new images uploaded
+[2025-09-08 20:47:29] Starting database transaction
+[2025-09-08 20:47:29] Updating product in database
+[2025-09-08 20:47:29] Product updated successfully
+[2025-09-08 20:47:29] Fetching existing variants for product ID: 4
+[2025-09-08 20:47:29] Existing variants: [{"id":10,"color":"White","size":"Medium","additional_price":"0.00","stock":30},{"id":11,"color":"Black","size":"Medium","additional_price":"0.00","stock":30}]
+[2025-09-08 20:47:29] Processing variants: [{"color":"White","size":"Medium","additional_price":0,"stock":30},{"color":"Black","size":"Medium","additional_price":0,"stock":30}]
+[2025-09-08 20:47:29] Updating variant: id=10, color='White', size='Medium', additional_price=0, stock=30
+[2025-09-08 20:47:29] Variant updated successfully
+[2025-09-08 20:47:29] Updating variant: id=11, color='Black', size='Medium', additional_price=0, stock=30
+[2025-09-08 20:47:29] Variant updated successfully
+[2025-09-08 20:47:29] Committing transaction
+[2025-09-08 20:47:29] Product and variants updated successfully
+[2025-09-08 20:49:43] Starting add_product.php
+[2025-09-08 20:49:43] Received POST data: {"productName":"Ink","productCategory":"3","productStock":"20","productBuyingPrice":"90","productSellingPrice":"100","productDescription":"250","variantColor":["White","Black"],"variantSize":["Large","Medium"],"variantAdditionalPrice":["0","20"],"variantStock":["10","10"],"variants":"[{\"color\":\"White\",\"size\":\"Large\",\"additional_price\":0,\"stock\":10},{\"color\":\"Black\",\"size\":\"Medium\",\"additional_price\":20,\"stock\":10}]"}
+[2025-09-08 20:49:43] Received FILES data: {"productImages":{"name":["download (3).jpeg","download (2).jpeg","download (1).jpeg","images (2).jpeg","images (1).jpeg","images.jpeg","dipenser.jpeg","tumblers2.jpeg"],"type":["image\/jpeg","image\/jpeg","image\/jpeg","image\/jpeg","image\/jpeg","image\/jpeg","image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpDD2D.tmp","C:\\xampp\\tmp\\phpDD3E.tmp","C:\\xampp\\tmp\\phpDD4E.tmp","C:\\xampp\\tmp\\phpDD4F.tmp","C:\\xampp\\tmp\\phpDD70.tmp","C:\\xampp\\tmp\\phpDD71.tmp","C:\\xampp\\tmp\\phpDD81.tmp","C:\\xampp\\tmp\\phpDD82.tmp"],"error":[0,0,0,0,0,0,0,0],"size":[7965,7536,8689,4129,3396,3740,5807,5626]}}
+[2025-09-08 20:49:43] Calculated total stock from variants: 20
+[2025-09-08 20:49:43] Validated input: name='Ink', category_id=3, stock=20, buying_price=90, selling_price=100
+[2025-09-08 20:49:43] Processing image uploads
+[2025-09-08 20:49:43] Attempting to move uploaded file to: images/product_68bf2547a45f1.jpeg
+[2025-09-08 20:49:43] Successfully uploaded image: images/product_68bf2547a45f1.jpeg
+[2025-09-08 20:49:43] Attempting to move uploaded file to: images/product_68bf2547a7d20.jpeg
+[2025-09-08 20:49:43] Successfully uploaded image: images/product_68bf2547a7d20.jpeg
+[2025-09-08 20:49:43] Attempting to move uploaded file to: images/product_68bf2547a8b08.jpeg
+[2025-09-08 20:49:43] Successfully uploaded image: images/product_68bf2547a8b08.jpeg
+[2025-09-08 20:49:43] Attempting to move uploaded file to: images/product_68bf2547aa10c.jpeg
+[2025-09-08 20:49:43] Successfully uploaded image: images/product_68bf2547aa10c.jpeg
+[2025-09-08 20:49:43] Attempting to move uploaded file to: images/product_68bf2547ab292.jpeg
+[2025-09-08 20:49:43] Successfully uploaded image: images/product_68bf2547ab292.jpeg
+[2025-09-08 20:49:43] Attempting to move uploaded file to: images/product_68bf2547ac5cc.jpeg
+[2025-09-08 20:49:43] Successfully uploaded image: images/product_68bf2547ac5cc.jpeg
+[2025-09-08 20:49:43] Attempting to move uploaded file to: images/product_68bf2547b140e.jpeg
+[2025-09-08 20:49:43] Successfully uploaded image: images/product_68bf2547b140e.jpeg
+[2025-09-08 20:49:43] Attempting to move uploaded file to: images/product_68bf2547b64bc.jpeg
+[2025-09-08 20:49:43] Successfully uploaded image: images/product_68bf2547b64bc.jpeg
+[2025-09-08 20:49:43] Starting database transaction
+[2025-09-08 20:49:43] Inserting product into database
+[2025-09-08 20:49:43] Product inserted with ID: 14
+[2025-09-08 20:49:43] Processing variants: [{"color":"White","size":"Large","additional_price":0,"stock":10},{"color":"Black","size":"Medium","additional_price":20,"stock":10}]
+[2025-09-08 20:49:43] Inserting variant: color='White', size='Large', additional_price=0, stock=10
+[2025-09-08 20:49:43] Variant inserted successfully
+[2025-09-08 20:49:43] Inserting variant: color='Black', size='Medium', additional_price=20, stock=10
+[2025-09-08 20:49:43] Variant inserted successfully
+[2025-09-08 20:49:43] Committing transaction
+[2025-09-08 20:49:43] Product and variants added successfully
+[2025-09-08 21:05:19] Starting add_product.php
+[2025-09-08 21:05:19] Received POST data: {"productName":"Ink","productCategory":"2","productStock":"0","productBuyingPrice":"100","productSellingPrice":"150","productDescription":"ww","variants":"[]"}
+[2025-09-08 21:05:19] Received FILES data: {"productImages":{"name":["download (2).jpeg","download (1).jpeg","images (2).jpeg","images (1).jpeg"],"type":["image\/jpeg","image\/jpeg","image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php242E.tmp","C:\\xampp\\tmp\\php242F.tmp","C:\\xampp\\tmp\\php2440.tmp","C:\\xampp\\tmp\\php2441.tmp"],"error":[0,0,0,0],"size":[7536,8689,4129,3396]}}
+[2025-09-08 21:05:19] Calculated total stock from variants: 0
+[2025-09-08 21:05:19] Validated input: name='Ink', category_id=2, stock=0, buying_price=100, selling_price=150
+[2025-09-08 21:05:19] Processing image uploads
+[2025-09-08 21:05:19] Attempting to move uploaded file to: images/product_68bf28ef4977d.jpeg
+[2025-09-08 21:05:19] Successfully uploaded image: images/product_68bf28ef4977d.jpeg
+[2025-09-08 21:05:19] Attempting to move uploaded file to: images/product_68bf28ef4b09b.jpeg
+[2025-09-08 21:05:19] Successfully uploaded image: images/product_68bf28ef4b09b.jpeg
+[2025-09-08 21:05:19] Attempting to move uploaded file to: images/product_68bf28ef4e0ce.jpeg
+[2025-09-08 21:05:19] Successfully uploaded image: images/product_68bf28ef4e0ce.jpeg
+[2025-09-08 21:05:19] Attempting to move uploaded file to: images/product_68bf28ef4f18c.jpeg
+[2025-09-08 21:05:19] Successfully uploaded image: images/product_68bf28ef4f18c.jpeg
+[2025-09-08 21:05:19] Starting database transaction
+[2025-09-08 21:05:19] Inserting product into database
+[2025-09-08 21:05:19] Product inserted with ID: 1
+[2025-09-08 21:05:19] Processing variants: []
+[2025-09-08 21:05:19] Committing transaction
+[2025-09-08 21:05:19] Product and variants added successfully
+[2025-09-08 21:05:49] Starting update_product.php
+[2025-09-08 21:05:49] Received POST data: {"editProductId":"1","editProductName":"Ink","editProductCategory":"2","editProductStock":"12","editProductBuyingPrice":"100.00","editProductSellingPrice":"150.00","editProductDescription":"ww","variantColor":["White"],"variantSize":["Medium"],"variantAdditionalPrice":["0"],"variantStock":["12"],"variants":"[{\"color\":\"White\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":12}]"}
+[2025-09-08 21:05:49] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-08 21:05:49] Calculated total stock from variants: 12
+[2025-09-08 21:05:49] Validated input: id=1, name='Ink', category_id=2, stock=12, buying_price=100.00, selling_price=150.00
+[2025-09-08 21:05:49] Fetching existing images for product ID: 1
+[2025-09-08 21:05:49] Existing images: images/product_68bf28ef4977d.jpeg,images/product_68bf28ef4b09b.jpeg,images/product_68bf28ef4e0ce.jpeg,images/product_68bf28ef4f18c.jpeg
+[2025-09-08 21:05:49] No new images uploaded
+[2025-09-08 21:05:49] Starting database transaction
+[2025-09-08 21:05:49] Updating product in database
+[2025-09-08 21:05:49] Product updated successfully
+[2025-09-08 21:05:49] Fetching existing variants for product ID: 1
+[2025-09-08 21:05:49] Existing variants: []
+[2025-09-08 21:05:49] Processing variants: [{"color":"White","size":"Medium","additional_price":0,"stock":12}]
+[2025-09-08 21:05:49] Inserting new variant: color='White', size='Medium', additional_price=0, stock=12
+[2025-09-08 21:05:49] Variant inserted successfully
+[2025-09-08 21:05:49] Committing transaction
+[2025-09-08 21:05:49] Product and variants updated successfully
+[2025-09-08 21:07:20] Starting add_product.php
+[2025-09-08 21:07:20] Received POST data: {"productName":"uui","productCategory":"3","productStock":"10","productBuyingPrice":"50","productSellingPrice":"60","productDescription":"uui","variantColor":["White"],"variantSize":["kk"],"variantAdditionalPrice":["10"],"variantStock":["10"],"variants":"[{\"color\":\"White\",\"size\":\"kk\",\"additional_price\":10,\"stock\":10}]"}
+[2025-09-08 21:07:20] Received FILES data: {"productImages":{"name":["dipenser.jpeg","tumblers2.jpeg","tumblers.jpeg","pots 2.jpeg"],"type":["image\/jpeg","image\/jpeg","image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpFE51.tmp","C:\\xampp\\tmp\\phpFE62.tmp","C:\\xampp\\tmp\\phpFE63.tmp","C:\\xampp\\tmp\\phpFE73.tmp"],"error":[0,0,0,0],"size":[5807,5626,8127,8618]}}
+[2025-09-08 21:07:20] Calculated total stock from variants: 10
+[2025-09-08 21:07:20] Validated input: name='uui', category_id=3, stock=10, buying_price=50, selling_price=60
+[2025-09-08 21:07:20] Processing image uploads
+[2025-09-08 21:07:20] Attempting to move uploaded file to: images/product_68bf2968a312a.jpeg
+[2025-09-08 21:07:20] Successfully uploaded image: images/product_68bf2968a312a.jpeg
+[2025-09-08 21:07:20] Attempting to move uploaded file to: images/product_68bf2968a6278.jpeg
+[2025-09-08 21:07:20] Successfully uploaded image: images/product_68bf2968a6278.jpeg
+[2025-09-08 21:07:20] Attempting to move uploaded file to: images/product_68bf2968aab6d.jpeg
+[2025-09-08 21:07:20] Successfully uploaded image: images/product_68bf2968aab6d.jpeg
+[2025-09-08 21:07:20] Attempting to move uploaded file to: images/product_68bf2968b7ca6.jpeg
+[2025-09-08 21:07:20] Successfully uploaded image: images/product_68bf2968b7ca6.jpeg
+[2025-09-08 21:07:20] Starting database transaction
+[2025-09-08 21:07:20] Inserting product into database
+[2025-09-08 21:07:20] Product inserted with ID: 2
+[2025-09-08 21:07:20] Processing variants: [{"color":"White","size":"kk","additional_price":10,"stock":10}]
+[2025-09-08 21:07:20] Inserting variant: color='White', size='kk', additional_price=10, stock=10
+[2025-09-08 21:07:20] Variant inserted successfully
+[2025-09-08 21:07:20] Committing transaction
+[2025-09-08 21:07:20] Product and variants added successfully
+[2025-09-08 21:08:30] Starting add_product.php
+[2025-09-08 21:08:30] Received POST data: {"productName":"Final","productCategory":"5","productStock":"2","productBuyingPrice":"900","productSellingPrice":"110","productDescription":"Lpa","variantColor":["White"],"variantSize":["Medium"],"variantAdditionalPrice":["50"],"variantStock":["02"],"variants":"[{\"color\":\"White\",\"size\":\"Medium\",\"additional_price\":50,\"stock\":2}]"}
+[2025-09-08 21:08:30] Received FILES data: {"productImages":{"name":["tumblers.jpeg","pots 2.jpeg","pots1.jpeg","download.jpeg"],"type":["image\/jpeg","image\/jpeg","image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpE0F.tmp","C:\\xampp\\tmp\\phpE10.tmp","C:\\xampp\\tmp\\phpE11.tmp","C:\\xampp\\tmp\\phpE22.tmp"],"error":[0,0,0,0],"size":[8127,8618,7916,8143]}}
+[2025-09-08 21:08:30] Calculated total stock from variants: 2
+[2025-09-08 21:08:30] Validated input: name='Final', category_id=5, stock=2, buying_price=900, selling_price=110
+[2025-09-08 21:08:30] Processing image uploads
+[2025-09-08 21:08:30] Attempting to move uploaded file to: images/product_68bf29ae2e25f.jpeg
+[2025-09-08 21:08:30] Successfully uploaded image: images/product_68bf29ae2e25f.jpeg
+[2025-09-08 21:08:30] Attempting to move uploaded file to: images/product_68bf29ae2f36b.jpeg
+[2025-09-08 21:08:30] Successfully uploaded image: images/product_68bf29ae2f36b.jpeg
+[2025-09-08 21:08:30] Attempting to move uploaded file to: images/product_68bf29ae32109.jpeg
+[2025-09-08 21:08:30] Successfully uploaded image: images/product_68bf29ae32109.jpeg
+[2025-09-08 21:08:30] Attempting to move uploaded file to: images/product_68bf29ae33a9a.jpeg
+[2025-09-08 21:08:30] Successfully uploaded image: images/product_68bf29ae33a9a.jpeg
+[2025-09-08 21:08:30] Starting database transaction
+[2025-09-08 21:08:30] Inserting product into database
+[2025-09-08 21:08:30] Product inserted with ID: 3
+[2025-09-08 21:08:30] Processing variants: [{"color":"White","size":"Medium","additional_price":50,"stock":2}]
+[2025-09-08 21:08:30] Inserting variant: color='White', size='Medium', additional_price=50, stock=2
+[2025-09-08 21:08:30] Variant inserted successfully
+[2025-09-08 21:08:30] Committing transaction
+[2025-09-08 21:08:30] Product and variants added successfully
+[2025-09-09 07:24:10] Starting add_product.php
+[2025-09-09 07:24:10] Received POST data: {"productName":"Non Stick pots","productCategory":"1","productStock":"1","productBuyingPrice":"1500","productSellingPrice":"2500","productDescription":"strong non stick cooking pots","variantColor":["black "],"variantSize":["Medium"],"variantAdditionalPrice":["0.01"],"variantStock":["1"],"variants":"[{\"color\":\"black \",\"size\":\"Medium\",\"additional_price\":0.01,\"stock\":1}]"}
+[2025-09-09 07:24:10] Received FILES data: {"productImages":{"name":["pots 2.jpeg","pots1.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php8E84.tmp","C:\\xampp\\tmp\\php8E85.tmp"],"error":[0,0],"size":[8618,7916]}}
+[2025-09-09 07:24:10] Calculated total stock from variants: 1
+[2025-09-09 07:24:10] Validated input: name='Non Stick pots', category_id=1, stock=1, buying_price=1500, selling_price=2500
+[2025-09-09 07:24:10] Processing image uploads
+[2025-09-09 07:24:10] Attempting to move uploaded file to: images/product_68bfb9facefe4.jpeg
+[2025-09-09 07:24:10] Successfully uploaded image: images/product_68bfb9facefe4.jpeg
+[2025-09-09 07:24:10] Attempting to move uploaded file to: images/product_68bfb9facfc1b.jpeg
+[2025-09-09 07:24:10] Successfully uploaded image: images/product_68bfb9facfc1b.jpeg
+[2025-09-09 07:24:10] Starting database transaction
+[2025-09-09 07:24:10] Inserting product into database
+[2025-09-09 07:24:10] Product inserted with ID: 4
+[2025-09-09 07:24:10] Processing variants: [{"color":"black ","size":"Medium","additional_price":0.01,"stock":1}]
+[2025-09-09 07:24:10] Inserting variant: color='black ', size='Medium', additional_price=0.01, stock=1
+[2025-09-09 07:24:10] Variant inserted successfully
+[2025-09-09 07:24:10] Committing transaction
+[2025-09-09 07:24:10] Product and variants added successfully
+[2025-09-09 07:25:45] Starting add_product.php
+[2025-09-09 07:25:45] Received POST data: {"productName":"Baskets ","productCategory":"2","productStock":"0","productBuyingPrice":"100","productSellingPrice":"150","productDescription":"lunch carrying baskets ","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"variants":"[]"}
+[2025-09-09 07:25:45] Received FILES data: {"productImages":{"name":["download (1).jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php298.tmp"],"error":[0],"size":[8689]}}
+[2025-09-09 07:25:45] Calculated total stock from variants: 0
+[2025-09-09 07:25:45] Validated input: name='Baskets ', category_id=2, stock=0, buying_price=100, selling_price=150
+[2025-09-09 07:25:45] Processing image uploads
+[2025-09-09 07:25:45] Attempting to move uploaded file to: images/product_68bfba59efa6c.jpeg
+[2025-09-09 07:25:45] Successfully uploaded image: images/product_68bfba59efa6c.jpeg
+[2025-09-09 07:25:45] Starting database transaction
+[2025-09-09 07:25:45] Inserting product into database
+[2025-09-09 07:25:45] Product inserted with ID: 5
+[2025-09-09 07:25:45] Processing variants: []
+[2025-09-09 07:25:45] Committing transaction
+[2025-09-09 07:25:46] Product and variants added successfully
+[2025-09-09 07:26:50] Starting add_product.php
+[2025-09-09 07:26:50] Received POST data: {"productName":"Tumblers ","productCategory":"1","productStock":"0","productBuyingPrice":"50","productSellingPrice":"70","productDescription":"","variantColor":["clear","red"],"variantSize":["Medium","Medium"],"variantAdditionalPrice":["",""],"variantStock":["",""],"variants":"[{\"color\":\"clear\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":0},{\"color\":\"red\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":0}]"}
+[2025-09-09 07:26:50] Received FILES data: {"productImages":{"name":["tumblers2.jpeg","tumblers.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpFEFB.tmp","C:\\xampp\\tmp\\phpFEFC.tmp"],"error":[0,0],"size":[5626,8127]}}
+[2025-09-09 07:26:50] Calculated total stock from variants: 0
+[2025-09-09 07:26:50] Validated input: name='Tumblers ', category_id=1, stock=0, buying_price=50, selling_price=70
+[2025-09-09 07:26:50] Processing image uploads
+[2025-09-09 07:26:50] Attempting to move uploaded file to: images/product_68bfba9a8fd33.jpeg
+[2025-09-09 07:26:50] Successfully uploaded image: images/product_68bfba9a8fd33.jpeg
+[2025-09-09 07:26:50] Attempting to move uploaded file to: images/product_68bfba9a9155e.jpeg
+[2025-09-09 07:26:50] Successfully uploaded image: images/product_68bfba9a9155e.jpeg
+[2025-09-09 07:26:50] Starting database transaction
+[2025-09-09 07:26:50] Inserting product into database
+[2025-09-09 07:26:50] Product inserted with ID: 6
+[2025-09-09 07:26:50] Processing variants: [{"color":"clear","size":"Medium","additional_price":0,"stock":0},{"color":"red","size":"Medium","additional_price":0,"stock":0}]
+[2025-09-09 07:26:50] Inserting variant: color='clear', size='Medium', additional_price=0, stock=0
+[2025-09-09 07:26:50] Variant inserted successfully
+[2025-09-09 07:26:50] Inserting variant: color='red', size='Medium', additional_price=0, stock=0
+[2025-09-09 07:26:50] Variant inserted successfully
+[2025-09-09 07:26:50] Committing transaction
+[2025-09-09 07:26:50] Product and variants added successfully
+[2025-09-09 07:27:55] Starting add_product.php
+[2025-09-09 07:27:55] Received POST data: {"productName":"Water Dispenser ","productCategory":"1","productStock":"0","productBuyingPrice":"1800","productSellingPrice":"2500","productDescription":"black water dispenser","variantColor":["black"],"variantSize":["Medium"],"variantAdditionalPrice":[""],"variantStock":[""],"variants":"[{\"color\":\"black\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":0}]"}
+[2025-09-09 07:27:55] Received FILES data: {"productImages":{"name":["dipenser.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpFAD1.tmp"],"error":[0],"size":[5807]}}
+[2025-09-09 07:27:55] Calculated total stock from variants: 0
+[2025-09-09 07:27:55] Validated input: name='Water Dispenser ', category_id=1, stock=0, buying_price=1800, selling_price=2500
+[2025-09-09 07:27:55] Processing image uploads
+[2025-09-09 07:27:55] Attempting to move uploaded file to: images/product_68bfbadb0dd7b.jpeg
+[2025-09-09 07:27:55] Successfully uploaded image: images/product_68bfbadb0dd7b.jpeg
+[2025-09-09 07:27:55] Starting database transaction
+[2025-09-09 07:27:55] Inserting product into database
+[2025-09-09 07:27:55] Product inserted with ID: 7
+[2025-09-09 07:27:55] Processing variants: [{"color":"black","size":"Medium","additional_price":0,"stock":0}]
+[2025-09-09 07:27:55] Inserting variant: color='black', size='Medium', additional_price=0, stock=0
+[2025-09-09 07:27:55] Variant inserted successfully
+[2025-09-09 07:27:55] Committing transaction
+[2025-09-09 07:27:55] Product and variants added successfully
+[2025-09-09 14:41:57] Starting add_product.php
+[2025-09-09 14:41:57] Received POST data: {"productName":"Baskets ","productCategory":"1","productStock":"0","productBuyingPrice":"660","productSellingPrice":"789","productDescription":"","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"variants":"[]"}
+[2025-09-09 14:41:57] Received FILES data: {"productImages":{"name":["download (1).jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php5AE9.tmp"],"error":[0],"size":[8689]}}
+[2025-09-09 14:41:57] Calculated total stock from variants: 0
+[2025-09-09 14:41:57] Validated input: name='Baskets ', category_id=1, stock=0, buying_price=660, selling_price=789
+[2025-09-09 14:41:57] Processing image uploads
+[2025-09-09 14:41:57] Attempting to move uploaded file to: images/product_68c020956ddd7.jpeg
+[2025-09-09 14:41:57] Successfully uploaded image: images/product_68c020956ddd7.jpeg
+[2025-09-09 14:41:57] Starting database transaction
+[2025-09-09 14:41:57] Inserting product into database
+[2025-09-09 14:41:57] Product inserted with ID: 8
+[2025-09-09 14:41:57] Processing variants: []
+[2025-09-09 14:41:57] Committing transaction
+[2025-09-09 14:41:57] Product and variants added successfully
+[2025-09-09 14:42:23] Starting add_product.php
+[2025-09-09 14:42:23] Received POST data: {"productName":"Tumblers ","productCategory":"1","productStock":"0","productBuyingPrice":"78","productSellingPrice":"99","productDescription":"","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"variants":"[]"}
+[2025-09-09 14:42:23] Received FILES data: {"productImages":{"name":["tumblers2.jpeg","tumblers.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpC116.tmp","C:\\xampp\\tmp\\phpC117.tmp"],"error":[0,0],"size":[5626,8127]}}
+[2025-09-09 14:42:23] Calculated total stock from variants: 0
+[2025-09-09 14:42:23] Validated input: name='Tumblers ', category_id=1, stock=0, buying_price=78, selling_price=99
+[2025-09-09 14:42:23] Processing image uploads
+[2025-09-09 14:42:23] Attempting to move uploaded file to: images/product_68c020af94880.jpeg
+[2025-09-09 14:42:23] Successfully uploaded image: images/product_68c020af94880.jpeg
+[2025-09-09 14:42:23] Attempting to move uploaded file to: images/product_68c020af9535a.jpeg
+[2025-09-09 14:42:23] Successfully uploaded image: images/product_68c020af9535a.jpeg
+[2025-09-09 14:42:23] Starting database transaction
+[2025-09-09 14:42:23] Inserting product into database
+[2025-09-09 14:42:23] Product inserted with ID: 9
+[2025-09-09 14:42:23] Processing variants: []
+[2025-09-09 14:42:23] Committing transaction
+[2025-09-09 14:42:23] Product and variants added successfully
+[2025-09-09 16:49:02] Starting add_product.php
+[2025-09-09 16:49:02] Received POST data: {"productName":"Water Bottles","productCategory":"2","productStock":"7","productBuyingPrice":"160","productSellingPrice":"250","productDescription":"sweetlooking","variantColor":["blue","colorless"],"variantSize":["Large","Medium"],"variantAdditionalPrice":["2","3"],"variantStock":["3","4"],"variants":"[{\"color\":\"blue\",\"size\":\"Large\",\"additional_price\":2,\"stock\":3},{\"color\":\"colorless\",\"size\":\"Medium\",\"additional_price\":3,\"stock\":4}]"}
+[2025-09-09 16:49:02] Received FILES data: {"productImages":{"name":["download (4)water bottle.jpeg","water  bottle.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpB359.tmp","C:\\xampp\\tmp\\phpB35A.tmp"],"error":[0,0],"size":[6721,8141]}}
+[2025-09-09 16:49:02] Calculated total stock from variants: 7
+[2025-09-09 16:49:02] Validated input: name='Water Bottles', category_id=2, stock=7, buying_price=160, selling_price=250
+[2025-09-09 16:49:02] Processing image uploads
+[2025-09-09 16:49:02] Attempting to move uploaded file to: images/product_68c03e5e4068b.jpeg
+[2025-09-09 16:49:02] Successfully uploaded image: images/product_68c03e5e4068b.jpeg
+[2025-09-09 16:49:02] Attempting to move uploaded file to: images/product_68c03e5e41498.jpeg
+[2025-09-09 16:49:02] Successfully uploaded image: images/product_68c03e5e41498.jpeg
+[2025-09-09 16:49:02] Starting database transaction
+[2025-09-09 16:49:02] Inserting product into database
+[2025-09-09 16:49:02] Product inserted with ID: 10
+[2025-09-09 16:49:02] Processing variants: [{"color":"blue","size":"Large","additional_price":2,"stock":3},{"color":"colorless","size":"Medium","additional_price":3,"stock":4}]
+[2025-09-09 16:49:02] Inserting variant: color='blue', size='Large', additional_price=2, stock=3
+[2025-09-09 16:49:02] Variant inserted successfully
+[2025-09-09 16:49:02] Inserting variant: color='colorless', size='Medium', additional_price=3, stock=4
+[2025-09-09 16:49:02] Variant inserted successfully
+[2025-09-09 16:49:02] Committing transaction
+[2025-09-09 16:49:02] Product and variants added successfully
+[2025-09-09 17:03:21] Starting add_product.php
+[2025-09-09 17:03:21] Received POST data: {"productName":"Baskets ","productCategory":"1","productStock":"0","productBuyingPrice":"120","productSellingPrice":"200","productDescription":"","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"variants":"[]"}
+[2025-09-09 17:03:21] Received FILES data: {"productImages":{"name":["water  bottle.jpeg","download (3).jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpD00B.tmp","C:\\xampp\\tmp\\phpD00C.tmp"],"error":[0,0],"size":[8141,7965]}}
+[2025-09-09 17:03:21] Calculated total stock from variants: 0
+[2025-09-09 17:03:21] Validated input: name='Baskets ', category_id=1, stock=0, buying_price=120, selling_price=200
+[2025-09-09 17:03:21] Processing image uploads
+[2025-09-09 17:03:21] Attempting to move uploaded file to: images/product_68c041b98e597.jpeg
+[2025-09-09 17:03:21] Successfully uploaded image: images/product_68c041b98e597.jpeg
+[2025-09-09 17:03:21] Attempting to move uploaded file to: images/product_68c041b99080e.jpeg
+[2025-09-09 17:03:21] Successfully uploaded image: images/product_68c041b99080e.jpeg
+[2025-09-09 17:03:21] Starting database transaction
+[2025-09-09 17:03:21] Inserting product into database
+[2025-09-09 17:03:21] Product inserted with ID: 11
+[2025-09-09 17:03:21] Processing variants: []
+[2025-09-09 17:03:21] Committing transaction
+[2025-09-09 17:03:21] Product and variants added successfully
+[2025-09-09 17:06:39] Starting add_product.php
+[2025-09-09 17:06:39] Received POST data: {"productName":"Non Stick pots","productCategory":"1","productStock":"0","productBuyingPrice":"700","productSellingPrice":"1400","productDescription":"pots","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"variants":"[]"}
+[2025-09-09 17:06:39] Received FILES data: {"productImages":{"name":["pots 2.jpeg","pots1.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpD723.tmp","C:\\xampp\\tmp\\phpD724.tmp"],"error":[0,0],"size":[8618,7916]}}
+[2025-09-09 17:06:40] Calculated total stock from variants: 0
+[2025-09-09 17:06:40] Validated input: name='Non Stick pots', category_id=1, stock=0, buying_price=700, selling_price=1400
+[2025-09-09 17:06:40] Processing image uploads
+[2025-09-09 17:06:40] Attempting to move uploaded file to: images/product_68c04280013da.jpeg
+[2025-09-09 17:06:40] Successfully uploaded image: images/product_68c04280013da.jpeg
+[2025-09-09 17:06:40] Attempting to move uploaded file to: images/product_68c0428003245.jpeg
+[2025-09-09 17:06:40] Successfully uploaded image: images/product_68c0428003245.jpeg
+[2025-09-09 17:06:40] Starting database transaction
+[2025-09-09 17:06:40] Inserting product into database
+[2025-09-09 17:06:40] Product inserted with ID: 12
+[2025-09-09 17:06:40] Processing variants: []
+[2025-09-09 17:06:40] Committing transaction
+[2025-09-09 17:06:40] Product and variants added successfully
+[2025-09-09 17:07:01] Starting add_product.php
+[2025-09-09 17:07:01] Received POST data: {"productName":"Non Stick pots","productCategory":"1","productStock":"0","productBuyingPrice":"300","productSellingPrice":"3000","productDescription":"","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"variants":"[]"}
+[2025-09-09 17:07:01] Received FILES data: {"productImages":{"name":["download (2).jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php297B.tmp"],"error":[0],"size":[7536]}}
+[2025-09-09 17:07:01] Calculated total stock from variants: 0
+[2025-09-09 17:07:01] Validated input: name='Non Stick pots', category_id=1, stock=0, buying_price=300, selling_price=3000
+[2025-09-09 17:07:01] Processing image uploads
+[2025-09-09 17:07:01] Attempting to move uploaded file to: images/product_68c0429512681.jpeg
+[2025-09-09 17:07:01] Successfully uploaded image: images/product_68c0429512681.jpeg
+[2025-09-09 17:07:01] Starting database transaction
+[2025-09-09 17:07:01] Inserting product into database
+[2025-09-09 17:07:01] Product inserted with ID: 13
+[2025-09-09 17:07:01] Processing variants: []
+[2025-09-09 17:07:01] Committing transaction
+[2025-09-09 17:07:01] Product and variants added successfully
+[2025-09-09 17:07:56] Starting add_product.php
+[2025-09-09 17:07:56] Received POST data: {"productName":"Tumblers ","productCategory":"1","productStock":"0","productBuyingPrice":"60","productSellingPrice":"100","productDescription":"","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"variants":"[]"}
+[2025-09-09 17:07:56] Received FILES data: {"productImages":{"name":["tumblers2.jpeg","tumblers.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php390.tmp","C:\\xampp\\tmp\\php391.tmp"],"error":[0,0],"size":[5626,8127]}}
+[2025-09-09 17:07:56] Calculated total stock from variants: 0
+[2025-09-09 17:07:56] Validated input: name='Tumblers ', category_id=1, stock=0, buying_price=60, selling_price=100
+[2025-09-09 17:07:56] Processing image uploads
+[2025-09-09 17:07:56] Attempting to move uploaded file to: images/product_68c042ccdde8b.jpeg
+[2025-09-09 17:07:56] Successfully uploaded image: images/product_68c042ccdde8b.jpeg
+[2025-09-09 17:07:56] Attempting to move uploaded file to: images/product_68c042cce02cc.jpeg
+[2025-09-09 17:07:56] Successfully uploaded image: images/product_68c042cce02cc.jpeg
+[2025-09-09 17:07:56] Starting database transaction
+[2025-09-09 17:07:56] Inserting product into database
+[2025-09-09 17:07:56] Product inserted with ID: 14
+[2025-09-09 17:07:56] Processing variants: []
+[2025-09-09 17:07:56] Committing transaction
+[2025-09-09 17:07:56] Product and variants added successfully
+[2025-09-09 17:09:59] Starting add_product.php
+[2025-09-09 17:09:59] Received POST data: {"productName":"Baskets ","productCategory":"1","productStock":"0","productBuyingPrice":"400","productSellingPrice":"500","productDescription":"","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"variants":"[]"}
+[2025-09-09 17:09:59] Received FILES data: {"productImages":{"name":["water  bottle.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpE293.tmp"],"error":[0],"size":[8141]}}
+[2025-09-09 17:09:59] Calculated total stock from variants: 0
+[2025-09-09 17:09:59] Validated input: name='Baskets ', category_id=1, stock=0, buying_price=400, selling_price=500
+[2025-09-09 17:09:59] Processing image uploads
+[2025-09-09 17:09:59] Attempting to move uploaded file to: images/product_68c0434782482.jpeg
+[2025-09-09 17:09:59] Successfully uploaded image: images/product_68c0434782482.jpeg
+[2025-09-09 17:09:59] Starting database transaction
+[2025-09-09 17:09:59] Inserting product into database
+[2025-09-09 17:09:59] Product inserted with ID: 15
+[2025-09-09 17:09:59] Processing variants: []
+[2025-09-09 17:09:59] Committing transaction
+[2025-09-09 17:09:59] Product and variants added successfully
+[2025-09-09 17:10:31] Starting add_product.php
+[2025-09-09 17:10:31] Received POST data: {"productName":"Baskets ","productCategory":"1","productStock":"0","productBuyingPrice":"600","productSellingPrice":"800","productDescription":"","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"variants":"[]"}
+[2025-09-09 17:10:31] Received FILES data: {"productImages":{"name":["water  bottle.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php613A.tmp"],"error":[0],"size":[8141]}}
+[2025-09-09 17:10:31] Calculated total stock from variants: 0
+[2025-09-09 17:10:31] Validated input: name='Baskets ', category_id=1, stock=0, buying_price=600, selling_price=800
+[2025-09-09 17:10:31] Processing image uploads
+[2025-09-09 17:10:31] Attempting to move uploaded file to: images/product_68c04367eafe5.jpeg
+[2025-09-09 17:10:31] Successfully uploaded image: images/product_68c04367eafe5.jpeg
+[2025-09-09 17:10:31] Starting database transaction
+[2025-09-09 17:10:31] Inserting product into database
+[2025-09-09 17:10:31] Product inserted with ID: 16
+[2025-09-09 17:10:31] Processing variants: []
+[2025-09-09 17:10:31] Committing transaction
+[2025-09-09 17:10:32] Product and variants added successfully
+[2025-09-10 12:32:17] Starting update_product.php
+[2025-09-10 12:32:17] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"40","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variantColor":["black "],"variantSize":["Medium"],"variantAdditionalPrice":["0.01"],"variantStock":["40"],"variants":"[{\"color\":\"black \",\"size\":\"Medium\",\"additional_price\":0.01,\"stock\":40}]"}
+[2025-09-10 12:32:17] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-10 12:32:17] Calculated total stock from variants: 40
+[2025-09-10 12:32:17] Validated input: id=4, name='Non Stick pots', category_id=1, stock=40, buying_price=1500.00, selling_price=2500.00
+[2025-09-10 12:32:17] Fetching existing images for product ID: 4
+[2025-09-10 12:32:17] Existing images: images/product_68bfb9facefe4.jpeg,images/product_68bfb9facfc1b.jpeg
+[2025-09-10 12:32:17] No new images uploaded
+[2025-09-10 12:32:17] Starting database transaction
+[2025-09-10 12:32:17] Updating product in database
+[2025-09-10 12:32:17] Product updated successfully
+[2025-09-10 12:32:17] Fetching existing variants for product ID: 4
+[2025-09-10 12:32:17] Existing variants: [{"id":4,"color":"black ","size":"Medium","additional_price":"0.01","stock":1}]
+[2025-09-10 12:32:17] Processing variants: [{"color":"black ","size":"Medium","additional_price":0.01,"stock":40}]
+[2025-09-10 12:32:17] Updating variant: id=4, color='black ', size='Medium', additional_price=0.01, stock=40
+[2025-09-10 12:32:17] Variant updated successfully
+[2025-09-10 12:32:17] Committing transaction
+[2025-09-10 12:32:17] Product and variants updated successfully
+[2025-09-10 12:32:36] Starting update_product.php
+[2025-09-10 12:32:36] Received POST data: {"editProductId":"5","editProductName":"Baskets ","editProductCategory":"2","editProductStock":"100","editProductBuyingPrice":"100.00","editProductSellingPrice":"150.00","editProductDescription":"lunch carrying baskets ","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":["100"],"variants":"[{\"color\":null,\"size\":null,\"additional_price\":0,\"stock\":100}]"}
+[2025-09-10 12:32:36] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-10 12:32:36] Calculated total stock from variants: 100
+[2025-09-10 12:32:36] Validated input: id=5, name='Baskets ', category_id=2, stock=100, buying_price=100.00, selling_price=150.00
+[2025-09-10 12:32:36] Fetching existing images for product ID: 5
+[2025-09-10 12:32:36] Existing images: images/product_68bfba59efa6c.jpeg
+[2025-09-10 12:32:36] No new images uploaded
+[2025-09-10 12:32:36] Starting database transaction
+[2025-09-10 12:32:36] Updating product in database
+[2025-09-10 12:32:36] Product updated successfully
+[2025-09-10 12:32:36] Fetching existing variants for product ID: 5
+[2025-09-10 12:32:36] Existing variants: []
+[2025-09-10 12:32:36] Processing variants: [{"color":null,"size":null,"additional_price":0,"stock":100}]
+[2025-09-10 12:32:36] Inserting new variant: color='', size='', additional_price=0, stock=100
+[2025-09-10 12:32:36] Variant inserted successfully
+[2025-09-10 12:32:36] Committing transaction
+[2025-09-10 12:32:36] Product and variants updated successfully
+[2025-09-18 20:35:25] Starting update_product.php
+[2025-09-18 20:35:25] Received POST data: {"editProductId":"6","editProductName":"Tumblers ","editProductCategory":"1","editProductStock":"0","editProductBuyingPrice":"50.00","editProductSellingPrice":"70.00","editProductDescription":"","variantColor":["clear","red"],"variantSize":["Medium","Medium"],"variantAdditionalPrice":["12","0.00"],"variantStock":["0","0"],"variants":"[{\"color\":\"clear\",\"size\":\"Medium\",\"additional_price\":12,\"stock\":0},{\"color\":\"red\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":0}]"}
+[2025-09-18 20:35:25] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-18 20:35:25] Calculated total stock from variants: 0
+[2025-09-18 20:35:25] Validated input: id=6, name='Tumblers ', category_id=1, stock=0, buying_price=50.00, selling_price=70.00
+[2025-09-18 20:35:25] Fetching existing images for product ID: 6
+[2025-09-18 20:35:25] Existing images: images/product_68bfba9a8fd33.jpeg,images/product_68bfba9a9155e.jpeg
+[2025-09-18 20:35:25] No new images uploaded
+[2025-09-18 20:35:25] Starting database transaction
+[2025-09-18 20:35:25] Updating product in database
+[2025-09-18 20:35:25] Product updated successfully
+[2025-09-18 20:35:25] Fetching existing variants for product ID: 6
+[2025-09-18 20:35:25] Existing variants: [{"id":5,"color":"clear","size":"Medium","additional_price":"0.00","stock":0},{"id":6,"color":"red","size":"Medium","additional_price":"0.00","stock":0}]
+[2025-09-18 20:35:25] Processing variants: [{"color":"clear","size":"Medium","additional_price":12,"stock":0},{"color":"red","size":"Medium","additional_price":0,"stock":0}]
+[2025-09-18 20:35:25] Updating variant: id=5, color='clear', size='Medium', additional_price=12, stock=0
+[2025-09-18 20:35:25] Variant updated successfully
+[2025-09-18 20:35:25] Updating variant: id=6, color='red', size='Medium', additional_price=0, stock=0
+[2025-09-18 20:35:25] Variant updated successfully
+[2025-09-18 20:35:25] Committing transaction
+[2025-09-18 20:35:25] Product and variants updated successfully
+[2025-09-18 20:35:42] Starting update_product.php
+[2025-09-18 20:35:42] Received POST data: {"editProductId":"6","editProductName":"Tumblers ","editProductCategory":"1","editProductStock":"20","editProductBuyingPrice":"50.00","editProductSellingPrice":"70.00","editProductDescription":"","variantColor":["clear","red"],"variantSize":["Medium","Medium"],"variantAdditionalPrice":["12.00","0.00"],"variantStock":["20","0"],"variants":"[{\"color\":\"clear\",\"size\":\"Medium\",\"additional_price\":12,\"stock\":20},{\"color\":\"red\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":0}]"}
+[2025-09-18 20:35:42] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-18 20:35:42] Calculated total stock from variants: 20
+[2025-09-18 20:35:42] Validated input: id=6, name='Tumblers ', category_id=1, stock=20, buying_price=50.00, selling_price=70.00
+[2025-09-18 20:35:42] Fetching existing images for product ID: 6
+[2025-09-18 20:35:42] Existing images: images/product_68bfba9a8fd33.jpeg,images/product_68bfba9a9155e.jpeg
+[2025-09-18 20:35:42] No new images uploaded
+[2025-09-18 20:35:42] Starting database transaction
+[2025-09-18 20:35:42] Updating product in database
+[2025-09-18 20:35:42] Product updated successfully
+[2025-09-18 20:35:42] Fetching existing variants for product ID: 6
+[2025-09-18 20:35:42] Existing variants: [{"id":5,"color":"clear","size":"Medium","additional_price":"12.00","stock":0},{"id":6,"color":"red","size":"Medium","additional_price":"0.00","stock":0}]
+[2025-09-18 20:35:42] Processing variants: [{"color":"clear","size":"Medium","additional_price":12,"stock":20},{"color":"red","size":"Medium","additional_price":0,"stock":0}]
+[2025-09-18 20:35:42] Updating variant: id=5, color='clear', size='Medium', additional_price=12, stock=20
+[2025-09-18 20:35:42] Variant updated successfully
+[2025-09-18 20:35:42] Updating variant: id=6, color='red', size='Medium', additional_price=0, stock=0
+[2025-09-18 20:35:42] Variant updated successfully
+[2025-09-18 20:35:42] Committing transaction
+[2025-09-18 20:35:42] Product and variants updated successfully
+[2025-09-18 20:36:10] Starting update_product.php
+[2025-09-18 20:36:10] Received POST data: {"editProductId":"7","editProductName":"Water Dispenser ","editProductCategory":"1","editProductStock":"30","editProductBuyingPrice":"1800.00","editProductSellingPrice":"2500.00","editProductDescription":"black water dispenser","variantColor":["black"],"variantSize":["Medium"],"variantAdditionalPrice":[""],"variantStock":["30"],"variants":"[{\"color\":\"black\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":30}]"}
+[2025-09-18 20:36:10] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-18 20:36:10] Calculated total stock from variants: 30
+[2025-09-18 20:36:10] Validated input: id=7, name='Water Dispenser ', category_id=1, stock=30, buying_price=1800.00, selling_price=2500.00
+[2025-09-18 20:36:10] Fetching existing images for product ID: 7
+[2025-09-18 20:36:10] Existing images: images/product_68bfbadb0dd7b.jpeg
+[2025-09-18 20:36:10] No new images uploaded
+[2025-09-18 20:36:10] Starting database transaction
+[2025-09-18 20:36:10] Updating product in database
+[2025-09-18 20:36:10] Product updated successfully
+[2025-09-18 20:36:10] Fetching existing variants for product ID: 7
+[2025-09-18 20:36:10] Existing variants: [{"id":7,"color":"black","size":"Medium","additional_price":"0.00","stock":0}]
+[2025-09-18 20:36:10] Processing variants: [{"color":"black","size":"Medium","additional_price":0,"stock":30}]
+[2025-09-18 20:36:10] Updating variant: id=7, color='black', size='Medium', additional_price=0, stock=30
+[2025-09-18 20:36:10] Variant updated successfully
+[2025-09-18 20:36:10] Committing transaction
+[2025-09-18 20:36:10] Product and variants updated successfully
+[2025-09-18 20:36:20] Starting update_product.php
+[2025-09-18 20:36:20] Received POST data: {"editProductId":"8","editProductName":"Baskets ","editProductCategory":"1","editProductStock":"0","editProductBuyingPrice":"660.00","editProductSellingPrice":"789.00","editProductDescription":"","variants":"[]"}
+[2025-09-18 20:36:20] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-18 20:36:20] Calculated total stock from variants: 0
+[2025-09-18 20:36:20] Validated input: id=8, name='Baskets ', category_id=1, stock=0, buying_price=660.00, selling_price=789.00
+[2025-09-18 20:36:20] Fetching existing images for product ID: 8
+[2025-09-18 20:36:20] Existing images: images/product_68c020956ddd7.jpeg
+[2025-09-18 20:36:20] No new images uploaded
+[2025-09-18 20:36:20] Starting database transaction
+[2025-09-18 20:36:20] Updating product in database
+[2025-09-18 20:36:20] Product updated successfully
+[2025-09-18 20:36:20] Fetching existing variants for product ID: 8
+[2025-09-18 20:36:20] Existing variants: []
+[2025-09-18 20:36:20] Processing variants: []
+[2025-09-18 20:36:20] Committing transaction
+[2025-09-18 20:36:20] Product and variants updated successfully
+[2025-09-18 20:36:39] Starting update_product.php
+[2025-09-18 20:36:39] Received POST data: {"editProductId":"11","editProductName":"Baskets ","editProductCategory":"1","editProductStock":"100","editProductBuyingPrice":"120.00","editProductSellingPrice":"200.00","editProductDescription":"","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":["100"],"variants":"[{\"color\":null,\"size\":null,\"additional_price\":0,\"stock\":100}]"}
+[2025-09-18 20:36:39] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-18 20:36:39] Calculated total stock from variants: 100
+[2025-09-18 20:36:39] Validated input: id=11, name='Baskets ', category_id=1, stock=100, buying_price=120.00, selling_price=200.00
+[2025-09-18 20:36:39] Fetching existing images for product ID: 11
+[2025-09-18 20:36:39] Existing images: images/product_68c041b98e597.jpeg,images/product_68c041b99080e.jpeg
+[2025-09-18 20:36:39] No new images uploaded
+[2025-09-18 20:36:39] Starting database transaction
+[2025-09-18 20:36:39] Updating product in database
+[2025-09-18 20:36:39] Product updated successfully
+[2025-09-18 20:36:39] Fetching existing variants for product ID: 11
+[2025-09-18 20:36:39] Existing variants: []
+[2025-09-18 20:36:39] Processing variants: [{"color":null,"size":null,"additional_price":0,"stock":100}]
+[2025-09-18 20:36:39] Inserting new variant: color='', size='', additional_price=0, stock=100
+[2025-09-18 20:36:39] Variant inserted successfully
+[2025-09-18 20:36:39] Committing transaction
+[2025-09-18 20:36:39] Product and variants updated successfully
+[2025-09-18 20:36:59] Starting update_product.php
+[2025-09-18 20:36:59] Received POST data: {"editProductId":"8","editProductName":"Baskets ","editProductCategory":"1","editProductStock":"20","editProductBuyingPrice":"660.00","editProductSellingPrice":"789.00","editProductDescription":"","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":["20"],"variants":"[{\"color\":null,\"size\":null,\"additional_price\":0,\"stock\":20}]"}
+[2025-09-18 20:36:59] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-18 20:36:59] Calculated total stock from variants: 20
+[2025-09-18 20:36:59] Validated input: id=8, name='Baskets ', category_id=1, stock=20, buying_price=660.00, selling_price=789.00
+[2025-09-18 20:36:59] Fetching existing images for product ID: 8
+[2025-09-18 20:36:59] Existing images: images/product_68c020956ddd7.jpeg
+[2025-09-18 20:36:59] No new images uploaded
+[2025-09-18 20:36:59] Starting database transaction
+[2025-09-18 20:36:59] Updating product in database
+[2025-09-18 20:36:59] Product updated successfully
+[2025-09-18 20:36:59] Fetching existing variants for product ID: 8
+[2025-09-18 20:36:59] Existing variants: []
+[2025-09-18 20:36:59] Processing variants: [{"color":null,"size":null,"additional_price":0,"stock":20}]
+[2025-09-18 20:36:59] Inserting new variant: color='', size='', additional_price=0, stock=20
+[2025-09-18 20:36:59] Variant inserted successfully
+[2025-09-18 20:36:59] Committing transaction
+[2025-09-18 20:36:59] Product and variants updated successfully
+[2025-09-18 20:45:42] Starting add_product.php
+[2025-09-18 20:45:42] Received POST data: {"productName":"Non Stick pots","productCategory":"1","productStock":"20","productBuyingPrice":"1000","productSellingPrice":"2000","productDescription":"strong","variants":"[]"}
+[2025-09-18 20:45:42] Received FILES data: {"productImages":{"name":["download.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpDEAA.tmp"],"error":[0],"size":[12547]}}
+[2025-09-18 20:45:42] Calculated total stock from variants: 0
+[2025-09-18 20:45:42] Validated input: name='Non Stick pots', category_id=1, stock=0, buying_price=1000, selling_price=2000
+[2025-09-18 20:45:42] Processing image uploads
+[2025-09-18 20:45:42] Attempting to move uploaded file to: images/product_68cc5356922c3.jpeg
+[2025-09-18 20:45:42] Successfully uploaded image: images/product_68cc5356922c3.jpeg
+[2025-09-18 20:45:42] Starting database transaction
+[2025-09-18 20:45:42] Inserting product into database
+[2025-09-18 20:45:42] Product inserted with ID: 17
+[2025-09-18 20:45:42] Processing variants: []
+[2025-09-18 20:45:42] Committing transaction
+[2025-09-18 20:45:42] Product and variants added successfully
+[2025-09-18 20:54:26] Starting add_product.php
+[2025-09-18 20:54:26] Received POST data: {"productName":"Non Stick pots","productCategory":"1","productStock":"20","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"productBuyingPrice":"3000","productSellingPrice":"5000","productDescription":"","variants":"[]"}
+[2025-09-18 20:54:26] Received FILES data: {"productImages":{"name":["download.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpDE75.tmp"],"error":[0],"size":[12547]}}
+[2025-09-18 20:54:26] Calculated total stock from variants: 0
+[2025-09-18 20:54:26] Validated input: name='Non Stick pots', category_id=1, stock=0, buying_price=3000, selling_price=5000
+[2025-09-18 20:54:26] Processing image uploads
+[2025-09-18 20:54:26] Attempting to move uploaded file to: images/product_68cc5562b3fbd.jpeg
+[2025-09-18 20:54:26] Successfully uploaded image: images/product_68cc5562b3fbd.jpeg
+[2025-09-18 20:54:26] Starting database transaction
+[2025-09-18 20:54:26] Inserting product into database
+[2025-09-18 20:54:26] Product inserted with ID: 18
+[2025-09-18 20:54:26] Processing variants: []
+[2025-09-18 20:54:26] Committing transaction
+[2025-09-18 20:54:26] Product and variants added successfully
+[2025-09-18 21:05:55] Starting add_product.php
+[2025-09-18 21:05:55] Received POST data: {"productName":"Baskets ","productCategory":"1","productStock":"12","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":[""],"productBuyingPrice":"1000","productSellingPrice":"100","productDescription":"","variants":"[]"}
+[2025-09-18 21:05:55] Received FILES data: {"productImages":{"name":["download.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php5F9C.tmp"],"error":[0],"size":[12547]}}
+[2025-09-18 21:05:55] Calculated total stock from variants: 0
+[2025-09-18 21:05:55] Validated input: name='Baskets ', category_id=1, stock=0, buying_price=1000, selling_price=100
+[2025-09-18 21:05:55] Processing image uploads
+[2025-09-18 21:05:55] Attempting to move uploaded file to: images/product_68cc58132b122.jpeg
+[2025-09-18 21:05:55] Successfully uploaded image: images/product_68cc58132b122.jpeg
+[2025-09-18 21:05:55] Starting database transaction
+[2025-09-18 21:05:55] Inserting product into database
+[2025-09-18 21:05:55] Product inserted with ID: 19
+[2025-09-18 21:05:55] Processing variants: []
+[2025-09-18 21:05:55] Committing transaction
+[2025-09-18 21:05:55] Product and variants added successfully
+[2025-09-19 07:33:19] Starting update_product.php
+[2025-09-19 07:33:19] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"50","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variantColor":["black "],"variantSize":["Medium"],"variantAdditionalPrice":["0.01"],"variantStock":["40"],"variants":"[{\"color\":\"black \",\"size\":\"Medium\",\"additional_price\":0.01,\"stock\":40}]"}
+[2025-09-19 07:33:19] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:33:19] Calculated total stock from variants: 40
+[2025-09-19 07:33:19] Validated input: id=4, name='Non Stick pots', category_id=1, stock=40, buying_price=1500.00, selling_price=2500.00
+[2025-09-19 07:33:19] Fetching existing images for product ID: 4
+[2025-09-19 07:33:19] Existing images: images/product_68bfb9facefe4.jpeg,images/product_68bfb9facfc1b.jpeg
+[2025-09-19 07:33:19] No new images uploaded
+[2025-09-19 07:33:19] Starting database transaction
+[2025-09-19 07:33:19] Updating product in database
+[2025-09-19 07:33:19] Product updated successfully
+[2025-09-19 07:33:19] Fetching existing variants for product ID: 4
+[2025-09-19 07:33:19] Existing variants: [{"id":4,"color":"black ","size":"Medium","additional_price":"0.01","stock":40}]
+[2025-09-19 07:33:19] Processing variants: [{"color":"black ","size":"Medium","additional_price":0.01,"stock":40}]
+[2025-09-19 07:33:19] Updating variant: id=4, color='black ', size='Medium', additional_price=0.01, stock=40
+[2025-09-19 07:33:19] Variant updated successfully
+[2025-09-19 07:33:19] Committing transaction
+[2025-09-19 07:33:19] Product and variants updated successfully
+[2025-09-19 07:33:49] Starting update_product.php
+[2025-09-19 07:33:49] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"70","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variantColor":["black "],"variantSize":["Medium"],"variantAdditionalPrice":["0.01"],"variantStock":["40"],"variants":"[{\"color\":\"black \",\"size\":\"Medium\",\"additional_price\":0.01,\"stock\":40}]"}
+[2025-09-19 07:33:49] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:33:49] Calculated total stock from variants: 40
+[2025-09-19 07:33:49] Validated input: id=4, name='Non Stick pots', category_id=1, stock=40, buying_price=1500.00, selling_price=2500.00
+[2025-09-19 07:33:49] Fetching existing images for product ID: 4
+[2025-09-19 07:33:49] Existing images: images/product_68bfb9facefe4.jpeg,images/product_68bfb9facfc1b.jpeg
+[2025-09-19 07:33:49] No new images uploaded
+[2025-09-19 07:33:49] Starting database transaction
+[2025-09-19 07:33:49] Updating product in database
+[2025-09-19 07:33:49] Product updated successfully
+[2025-09-19 07:33:49] Fetching existing variants for product ID: 4
+[2025-09-19 07:33:49] Existing variants: [{"id":4,"color":"black ","size":"Medium","additional_price":"0.01","stock":40}]
+[2025-09-19 07:33:49] Processing variants: [{"color":"black ","size":"Medium","additional_price":0.01,"stock":40}]
+[2025-09-19 07:33:49] Updating variant: id=4, color='black ', size='Medium', additional_price=0.01, stock=40
+[2025-09-19 07:33:49] Variant updated successfully
+[2025-09-19 07:33:49] Committing transaction
+[2025-09-19 07:33:49] Product and variants updated successfully
+[2025-09-19 07:42:35] Starting update_product.php
+[2025-09-19 07:42:35] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"43","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variantColor":["black "],"variantSize":["Medium"],"variantAdditionalPrice":["0.01"],"variantStock":["40"],"variants":"[{\"color\":\"black \",\"size\":\"Medium\",\"additional_price\":0.01,\"stock\":40}]"}
+[2025-09-19 07:42:35] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:42:35] Calculated total stock from variants: 40
+[2025-09-19 07:42:35] Validated input: id=4, name='Non Stick pots', category_id=1, stock=40, buying_price=1500.00, selling_price=2500.00
+[2025-09-19 07:42:35] Fetching existing images for product ID: 4
+[2025-09-19 07:42:35] Existing images: images/product_68bfb9facefe4.jpeg,images/product_68bfb9facfc1b.jpeg
+[2025-09-19 07:42:35] No new images uploaded
+[2025-09-19 07:42:35] Starting database transaction
+[2025-09-19 07:42:35] Updating product in database
+[2025-09-19 07:42:35] Product updated successfully
+[2025-09-19 07:42:35] Fetching existing variants for product ID: 4
+[2025-09-19 07:42:35] Existing variants: [{"id":4,"color":"black ","size":"Medium","additional_price":"0.01","stock":40}]
+[2025-09-19 07:42:35] Processing variants: [{"color":"black ","size":"Medium","additional_price":0.01,"stock":40}]
+[2025-09-19 07:42:35] Updating variant: id=4, color='black ', size='Medium', additional_price=0.01, stock=40
+[2025-09-19 07:42:35] Variant updated successfully
+[2025-09-19 07:42:35] Committing transaction
+[2025-09-19 07:42:35] Product and variants updated successfully
+[2025-09-19 07:45:20] Starting update_product.php
+[2025-09-19 07:45:20] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"43","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variantColor":["black "],"variantSize":["Medium"],"variantAdditionalPrice":["0.01"],"variantStock":["40"],"variants":"[{\"color\":\"black \",\"size\":\"Medium\",\"additional_price\":0.01,\"stock\":40}]"}
+[2025-09-19 07:45:20] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:45:20] Calculated total stock from variants: 40
+[2025-09-19 07:45:20] Validated input: id=4, name='Non Stick pots', category_id=1, stock=40, buying_price=1500.00, selling_price=2500.00
+[2025-09-19 07:45:20] Fetching existing images for product ID: 4
+[2025-09-19 07:45:20] Existing images: images/product_68bfb9facefe4.jpeg,images/product_68bfb9facfc1b.jpeg
+[2025-09-19 07:45:20] No new images uploaded
+[2025-09-19 07:45:20] Starting database transaction
+[2025-09-19 07:45:20] Updating product in database
+[2025-09-19 07:45:20] Product updated successfully
+[2025-09-19 07:45:20] Fetching existing variants for product ID: 4
+[2025-09-19 07:45:20] Existing variants: [{"id":4,"color":"black ","size":"Medium","additional_price":"0.01","stock":40}]
+[2025-09-19 07:45:20] Processing variants: [{"color":"black ","size":"Medium","additional_price":0.01,"stock":40}]
+[2025-09-19 07:45:20] Updating variant: id=4, color='black ', size='Medium', additional_price=0.01, stock=40
+[2025-09-19 07:45:20] Variant updated successfully
+[2025-09-19 07:45:20] Committing transaction
+[2025-09-19 07:45:20] Product and variants updated successfully
+[2025-09-19 07:48:32] Starting update_product.php
+[2025-09-19 07:48:32] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"43","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variantColor":["black "],"variantSize":["Medium"],"variantAdditionalPrice":["0.01"],"variantStock":["40"],"variants":"[{\"color\":\"black \",\"size\":\"Medium\",\"additional_price\":0.01,\"stock\":40}]"}
+[2025-09-19 07:48:32] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:48:32] Using provided stock value: 43
+[2025-09-19 07:48:32] Validation warning: Total variant stock (40) does not match provided stock (43)
+[2025-09-19 07:48:32] Total stock from variants: 40
+[2025-09-19 07:48:32] Validated input: id=4, name='Non Stick pots', category_id=1, stock=43, buying_price=1500.00, selling_price=2500.00
+[2025-09-19 07:48:32] Fetching existing images for product ID: 4
+[2025-09-19 07:48:32] Existing images: images/product_68bfb9facefe4.jpeg,images/product_68bfb9facfc1b.jpeg
+[2025-09-19 07:48:32] No new images uploaded
+[2025-09-19 07:48:32] Starting database transaction
+[2025-09-19 07:48:32] Updating product in database
+[2025-09-19 07:48:32] Product updated successfully
+[2025-09-19 07:48:32] Fetching existing variants for product ID: 4
+[2025-09-19 07:48:32] Existing variants: [{"id":4,"color":"black ","size":"Medium","additional_price":"0.01","stock":40}]
+[2025-09-19 07:48:32] Processing variants: [{"color":"black ","size":"Medium","additional_price":0.01,"stock":40}]
+[2025-09-19 07:48:32] Updating variant: id=4, color='black ', size='Medium', additional_price=0.01, stock=40
+[2025-09-19 07:48:32] Variant updated successfully
+[2025-09-19 07:48:32] Checking for variants to delete
+[2025-09-19 07:48:32] Committing transaction
+[2025-09-19 07:48:32] Product and variants updated successfully
+[2025-09-19 07:50:41] Starting update_product.php
+[2025-09-19 07:50:41] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"47","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variantColor":["black "],"variantSize":["Medium"],"variantAdditionalPrice":["0.01"],"variantStock":["40"],"variants":"[{\"color\":\"black \",\"size\":\"Medium\",\"additional_price\":0.01,\"stock\":40}]"}
+[2025-09-19 07:50:41] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:50:41] Calculated total stock from variants: 40
+[2025-09-19 07:50:41] Validated input: id=4, name='Non Stick pots', category_id=1, stock=40, buying_price=1500.00, selling_price=2500.00
+[2025-09-19 07:50:41] Fetching existing images for product ID: 4
+[2025-09-19 07:50:41] Existing images: images/product_68bfb9facefe4.jpeg,images/product_68bfb9facfc1b.jpeg
+[2025-09-19 07:50:41] No new images uploaded
+[2025-09-19 07:50:41] Starting database transaction
+[2025-09-19 07:50:41] Updating product in database
+[2025-09-19 07:50:41] Product updated successfully
+[2025-09-19 07:50:41] Fetching existing variants for product ID: 4
+[2025-09-19 07:50:41] Existing variants: [{"id":4,"color":"black ","size":"Medium","additional_price":"0.01","stock":40}]
+[2025-09-19 07:50:41] Processing variants: [{"color":"black ","size":"Medium","additional_price":0.01,"stock":40}]
+[2025-09-19 07:50:41] Updating variant: id=4, color='black ', size='Medium', additional_price=0.01, stock=40
+[2025-09-19 07:50:41] Variant updated successfully
+[2025-09-19 07:50:41] Committing transaction
+[2025-09-19 07:50:41] Product and variants updated successfully
+[2025-09-19 07:51:44] Starting update_product.php
+[2025-09-19 07:51:44] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"49","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variants":"[]"}
+[2025-09-19 07:51:44] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:51:44] Using provided stock value: 49
+[2025-09-19 07:51:44] Validated input: id=4, name='Non Stick pots', category_id=1, stock=49, buying_price=1500, selling_price=2500
+[2025-09-19 07:51:44] Fetching existing images for product ID: 4
+[2025-09-19 07:51:44] Existing images: images/product_68bfb9facefe4.jpeg,images/product_68bfb9facfc1b.jpeg
+[2025-09-19 07:51:44] No new images uploaded
+[2025-09-19 07:51:44] Starting database transaction
+[2025-09-19 07:51:44] Updating product in database
+[2025-09-19 07:51:44] Product updated successfully
+[2025-09-19 07:51:44] No variants provided, deleting existing variants for product ID: 4
+[2025-09-19 07:51:44] Existing variants deleted successfully
+[2025-09-19 07:51:44] Committing transaction
+[2025-09-19 07:51:44] Product and variants updated successfully
+[2025-09-19 07:51:48] Starting update_product.php
+[2025-09-19 07:51:48] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"49","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variants":"[]"}
+[2025-09-19 07:51:48] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:51:48] Using provided stock value: 49
+[2025-09-19 07:51:48] Validated input: id=4, name='Non Stick pots', category_id=1, stock=49, buying_price=1500, selling_price=2500
+[2025-09-19 07:51:48] Fetching existing images for product ID: 4
+[2025-09-19 07:51:48] Existing images: images/product_68bfb9facefe4.jpeg,images/product_68bfb9facfc1b.jpeg
+[2025-09-19 07:51:48] No new images uploaded
+[2025-09-19 07:51:48] Starting database transaction
+[2025-09-19 07:51:48] Updating product in database
+[2025-09-19 07:51:48] Product updated successfully
+[2025-09-19 07:51:48] No variants provided, deleting existing variants for product ID: 4
+[2025-09-19 07:51:48] Existing variants deleted successfully
+[2025-09-19 07:51:48] Committing transaction
+[2025-09-19 07:51:48] Product and variants updated successfully
+[2025-09-19 07:52:19] Starting add_product.php
+[2025-09-19 07:52:19] Received POST data: {"productName":"Non Stick pots","productCategory":"1","productStock":"123","productBuyingPrice":"120","productSellingPrice":"190","productDescription":"","variants":"[]"}
+[2025-09-19 07:52:19] Received FILES data: {"productImages":{"name":["download.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php918D.tmp"],"error":[0],"size":[12547]}}
+[2025-09-19 07:52:19] Calculated total stock from variants: 0
+[2025-09-19 07:52:19] Validated input: name='Non Stick pots', category_id=1, stock=0, buying_price=120, selling_price=190
+[2025-09-19 07:52:19] Processing image uploads
+[2025-09-19 07:52:19] Attempting to move uploaded file to: images/product_68ccef93b5ce5.jpeg
+[2025-09-19 07:52:19] Successfully uploaded image: images/product_68ccef93b5ce5.jpeg
+[2025-09-19 07:52:19] Starting database transaction
+[2025-09-19 07:52:19] Inserting product into database
+[2025-09-19 07:52:19] Product inserted with ID: 20
+[2025-09-19 07:52:19] Processing variants: []
+[2025-09-19 07:52:19] Committing transaction
+[2025-09-19 07:52:19] Product and variants added successfully
+[2025-09-19 07:52:54] Starting update_product.php
+[2025-09-19 07:52:54] Received POST data: {"editProductId":"20","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"100","editProductBuyingPrice":"120.00","editProductSellingPrice":"190.00","editProductDescription":"","variants":"[]"}
+[2025-09-19 07:52:54] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:52:54] Using provided stock value: 100
+[2025-09-19 07:52:54] Validated input: id=20, name='Non Stick pots', category_id=1, stock=100, buying_price=120, selling_price=190
+[2025-09-19 07:52:54] Fetching existing images for product ID: 20
+[2025-09-19 07:52:54] Existing images: images/product_68ccef93b5ce5.jpeg
+[2025-09-19 07:52:54] No new images uploaded
+[2025-09-19 07:52:54] Starting database transaction
+[2025-09-19 07:52:54] Updating product in database
+[2025-09-19 07:52:54] Product updated successfully
+[2025-09-19 07:52:54] No variants provided, deleting existing variants for product ID: 20
+[2025-09-19 07:52:54] Existing variants deleted successfully
+[2025-09-19 07:52:54] Committing transaction
+[2025-09-19 07:52:54] Product and variants updated successfully
+[2025-09-19 07:53:24] Starting update_product.php
+[2025-09-19 07:53:24] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"40","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variants":"[]"}
+[2025-09-19 07:53:24] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:53:24] Using provided stock value: 40
+[2025-09-19 07:53:24] Validated input: id=4, name='Non Stick pots', category_id=1, stock=40, buying_price=1500, selling_price=2500
+[2025-09-19 07:53:24] Fetching existing images for product ID: 4
+[2025-09-19 07:53:24] Existing images: images/product_68bfb9facefe4.jpeg,images/product_68bfb9facfc1b.jpeg
+[2025-09-19 07:53:24] No new images uploaded
+[2025-09-19 07:53:24] Starting database transaction
+[2025-09-19 07:53:24] Updating product in database
+[2025-09-19 07:53:24] Product updated successfully
+[2025-09-19 07:53:24] No variants provided, deleting existing variants for product ID: 4
+[2025-09-19 07:53:24] Existing variants deleted successfully
+[2025-09-19 07:53:24] Committing transaction
+[2025-09-19 07:53:24] Product and variants updated successfully
+[2025-09-19 07:57:48] Starting update_product.php
+[2025-09-19 07:57:48] Received POST data: {"editProductId":"4","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"44","editProductBuyingPrice":"1500.00","editProductSellingPrice":"2500.00","editProductDescription":"strong non stick cooking pots","variants":"[]"}
+[2025-09-19 07:57:48] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:58:04] Starting update_product.php
+[2025-09-19 07:58:04] Received POST data: {"editProductId":"6","editProductName":"Tumblers ","editProductCategory":"1","editProductStock":"22","editProductBuyingPrice":"50.00","editProductSellingPrice":"70.00","editProductDescription":"","variantColor":["clear","red"],"variantSize":["Medium","Medium"],"variantAdditionalPrice":["12.00","0.00"],"variantStock":["20","0"],"variants":"[{\"color\":\"clear\",\"size\":\"Medium\",\"additional_price\":12,\"stock\":20},{\"color\":\"red\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":0}]"}
+[2025-09-19 07:58:04] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:58:29] Starting update_product.php
+[2025-09-19 07:58:29] Received POST data: {"editProductId":"5","editProductName":"Baskets ","editProductCategory":"2","editProductStock":"20","editProductBuyingPrice":"100.00","editProductSellingPrice":"150.00","editProductDescription":"lunch carrying baskets ","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":["0.00"],"variantStock":["100"],"variants":"[{\"color\":null,\"size\":null,\"additional_price\":0,\"stock\":100}]"}
+[2025-09-19 07:58:29] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 07:58:54] Starting update_product.php
+[2025-09-19 07:58:54] Received POST data: {"editProductId":"5","editProductName":"Baskets ","editProductCategory":"2","editProductStock":"23","editProductBuyingPrice":"100.00","editProductSellingPrice":"150.00","editProductDescription":"lunch carrying baskets ","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":["0.00"],"variantStock":["23"],"variants":"[{\"color\":null,\"size\":null,\"additional_price\":0,\"stock\":23}]"}
+[2025-09-19 07:58:54] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 08:08:19] Starting add_product.php
+[2025-09-19 08:08:19] Received POST data: {"productName":"Non Stick pots","productCategory":"1","productStock":"100","productBuyingPrice":"100","productSellingPrice":"200","productDescription":"","variants":"[]"}
+[2025-09-19 08:08:19] Received FILES data: {"productImages":{"name":["download.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php383A.tmp"],"error":[0],"size":[12547]}}
+[2025-09-19 08:08:19] Calculated total stock from variants: 0
+[2025-09-19 08:08:19] Validated input: name='Non Stick pots', category_id=1, stock=0, buying_price=100, selling_price=200
+[2025-09-19 08:08:19] Processing image uploads
+[2025-09-19 08:08:19] Attempting to move uploaded file to: images/product_68ccf353d0677.jpeg
+[2025-09-19 08:08:19] Successfully uploaded image: images/product_68ccf353d0677.jpeg
+[2025-09-19 08:08:19] Starting database transaction
+[2025-09-19 08:08:19] Inserting product into database
+[2025-09-19 08:08:19] Product inserted with ID: 21
+[2025-09-19 08:08:19] Processing variants: []
+[2025-09-19 08:08:19] Committing transaction
+[2025-09-19 08:08:19] Product and variants added successfully
+[2025-09-19 08:09:09] Starting add_product.php
+[2025-09-19 08:09:09] Received POST data: {"productName":"Ink","productCategory":"1","productStock":"22","productBuyingPrice":"20","productSellingPrice":"40","productDescription":"","variants":"[]"}
+[2025-09-19 08:09:09] Received FILES data: {"productImages":{"name":["download.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpF988.tmp"],"error":[0],"size":[12547]}}
+[2025-09-19 08:09:09] Calculated total stock from variants: 0
+[2025-09-19 08:09:09] Validated input: name='Ink', category_id=1, stock=0, buying_price=20, selling_price=40
+[2025-09-19 08:09:09] Processing image uploads
+[2025-09-19 08:09:09] Attempting to move uploaded file to: images/product_68ccf38550760.jpeg
+[2025-09-19 08:09:09] Successfully uploaded image: images/product_68ccf38550760.jpeg
+[2025-09-19 08:09:09] Starting database transaction
+[2025-09-19 08:09:09] Inserting product into database
+[2025-09-19 08:09:09] Product inserted with ID: 22
+[2025-09-19 08:09:09] Processing variants: []
+[2025-09-19 08:09:09] Committing transaction
+[2025-09-19 08:09:09] Product and variants added successfully
+[2025-09-19 08:10:51] Starting update_product.php
+[2025-09-19 08:10:51] Received POST data: {"editProductId":"22","editProductName":"Ink","editProductCategory":"1","editProductStock":"100","editProductBuyingPrice":"20.00","editProductSellingPrice":"40.00","editProductDescription":"","variants":"[]"}
+[2025-09-19 08:10:51] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 08:16:12] Starting add_product.php
+[2025-09-19 08:16:12] Received POST data: {"productName":"Final","productCategory":"1","productStock":"100","productBuyingPrice":"89","productSellingPrice":"100","productDescription":"","variants":"[]"}
+[2025-09-19 08:16:12] Received FILES data: {"productImages":{"name":["download.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php7052.tmp"],"error":[0],"size":[12547]}}
+[2025-09-19 08:16:12] Using manual stock input: 100
+[2025-09-19 08:16:12] Calculated total stock from variants: 100
+[2025-09-19 08:16:12] Validated input: name='Final', category_id=1, stock=100, buying_price=89, selling_price=100
+[2025-09-19 08:16:12] Processing image uploads
+[2025-09-19 08:16:12] Attempting to move uploaded file to: images/product_68ccf52ce9e30.jpeg
+[2025-09-19 08:16:12] Successfully uploaded image: images/product_68ccf52ce9e30.jpeg
+[2025-09-19 08:16:12] Starting database transaction
+[2025-09-19 08:16:12] Inserting product into database
+[2025-09-19 08:16:12] Product inserted with ID: 23
+[2025-09-19 08:16:12] Processing variants: []
+[2025-09-19 08:16:12] Committing transaction
+[2025-09-19 08:16:12] Product and variants added successfully
+[2025-09-19 08:16:33] Starting update_product.php
+[2025-09-19 08:16:33] Received POST data: {"editProductId":"23","editProductName":"Final","editProductCategory":"1","editProductStock":"109","editProductBuyingPrice":"89.00","editProductSellingPrice":"100.00","editProductDescription":"","variants":"[]"}
+[2025-09-19 08:16:33] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 08:20:19] Starting remove_product_image.php
+[2025-09-19 08:20:19] Received input: {"product_id":23,"image_path":"images\/product_68ccf52ce9e30.jpeg"}
+[2025-09-19 08:20:19] Validated input: product_id=23, image_path=images/product_68ccf52ce9e30.jpeg
+[2025-09-19 08:20:19] Fetching existing images for product ID: 23
+[2025-09-19 08:20:19] Existing images: images/product_68ccf52ce9e30.jpeg
+[2025-09-19 08:20:19] New images after removal: 
+[2025-09-19 08:20:19] Updating product images in database
+[2025-09-19 08:20:19] Images updated successfully
+[2025-09-19 08:20:19] Deleting image file: images/product_68ccf52ce9e30.jpeg
+[2025-09-19 08:20:19] Image file deleted successfully
+[2025-09-19 08:20:19] Image removed successfully
+[2025-09-19 08:20:26] Starting update_product.php
+[2025-09-19 08:20:26] Received POST data: {"editProductId":"23","editProductName":"Final","editProductCategory":"1","editProductStock":"109","editProductBuyingPrice":"89.00","editProductSellingPrice":"100.00","editProductDescription":"","variants":"[]"}
+[2025-09-19 08:20:26] Received FILES data: {"productImages":{"name":["download.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php4FF6.tmp"],"error":[0],"size":[12547]}}
+[2025-09-19 08:25:51] Starting remove_product_image.php
+[2025-09-19 08:25:51] Received input: {"product_id":23,"image_path":"images\/product_68ccf62ac8354.jpeg"}
+[2025-09-19 08:25:51] Validated input: product_id=23, image_path=images/product_68ccf62ac8354.jpeg
+[2025-09-19 08:25:51] Fetching existing images for product ID: 23
+[2025-09-19 08:25:51] Existing images: images/product_68ccf62ac8354.jpeg
+[2025-09-19 08:25:51] New images after removal: 
+[2025-09-19 08:25:51] Updating product images in database
+[2025-09-19 08:25:51] Images updated successfully
+[2025-09-19 08:25:51] Deleting image file: images/product_68ccf62ac8354.jpeg
+[2025-09-19 08:25:51] Image file deleted successfully
+[2025-09-19 08:25:51] Image removed successfully
+[2025-09-19 08:25:58] Starting update_product.php
+[2025-09-19 08:25:58] Received POST data: {"editProductId":"23","editProductName":"Final","editProductCategory":"1","editProductStock":"109","editProductBuyingPrice":"89.00","editProductSellingPrice":"100.00","editProductDescription":"","variants":"[]"}
+[2025-09-19 08:25:58] Received FILES data: {"productImages":{"name":["download.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php5FAE.tmp"],"error":[0],"size":[12547]}}
+[2025-09-19 08:33:29] Starting update_product.php
+[2025-09-19 08:33:29] Received POST data: {"editProductId":"15","editProductName":"Baskets ","editProductCategory":"1","editProductStock":"100","editProductBuyingPrice":"400.00","editProductSellingPrice":"500.00","editProductDescription":"","variants":"[]"}
+[2025-09-19 08:33:29] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 08:35:23] Starting update_product.php
+[2025-09-19 08:35:23] Received POST data: {"editProductId":"14","editProductName":"Tumblers ","editProductCategory":"1","editProductStock":"100","editProductBuyingPrice":"60.00","editProductSellingPrice":"100.00","editProductDescription":"","variants":"[]"}
+[2025-09-19 08:35:23] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 08:38:47] Starting update_product.php
+[2025-09-19 08:38:47] Received POST data: {"editProductId":"17","editProductName":"Non Stick pots","editProductCategory":"1","editProductStock":"90","editProductBuyingPrice":"1000.00","editProductSellingPrice":"2000.00","editProductDescription":"strong","variants":"[]"}
+[2025-09-19 08:38:47] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 08:59:41] Starting update_product.php
+[2025-09-19 08:59:41] Received POST data: {"editProductId":"7","editProductName":"Water Dispenser ","editProductCategory":"1","editProductStock":"33","editProductBuyingPrice":"1800.00","editProductSellingPrice":"2500.00","editProductDescription":"black water dispenser","variantColor":["black"],"variantSize":["Medium"],"variantAdditionalPrice":["0.00"],"variantStock":["30"],"variants":"[{\"color\":\"black\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":30}]"}
+[2025-09-19 08:59:41] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 10:23:04] Starting update_product.php
+[2025-09-19 10:23:04] Received POST data: {"editProductId":"5","editProductName":"Baskets ","editProductCategory":"2","editProductStock":"24","editProductBuyingPrice":"100.00","editProductSellingPrice":"150.00","editProductDescription":"lunch carrying baskets ","variantColor":[""],"variantSize":[""],"variantAdditionalPrice":["0.00"],"variantStock":["23"],"variants":"[{\"color\":null,\"size\":null,\"additional_price\":0,\"stock\":23}]"}
+[2025-09-19 10:23:04] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 12:28:11] Starting add_product.php
+[2025-09-19 12:28:11] Received POST data: {"productName":"Ink","productCategory":"1","productStock":"20","productBuyingPrice":"499","productSellingPrice":"899","productDescription":"","variants":"[]"}
+[2025-09-19 12:28:11] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-19 12:28:11] Using manual stock input: 20
+[2025-09-19 12:28:11] Calculated total stock from variants: 20
+[2025-09-19 12:28:11] Validated input: name='Ink', category_id=1, stock=20, buying_price=499, selling_price=899
+[2025-09-19 12:28:11] No images uploaded
+[2025-09-19 12:28:11] Starting database transaction
+[2025-09-19 12:28:11] Inserting product into database
+[2025-09-19 12:28:11] Product inserted with ID: 24
+[2025-09-19 12:28:11] Processing variants: []
+[2025-09-19 12:28:11] Committing transaction
+[2025-09-19 12:28:11] Product and variants added successfully
+[2025-09-25 10:27:38] Starting add_product.php
+[2025-09-25 10:27:38] Received POST data: {"productName":"Stainless Stell Forks (5)","productCategory":"2","productStock":"100","productBuyingPrice":"90","productSellingPrice":"130","productDescription":"stainless still forks","variants":"[]"}
+[2025-09-25 10:27:38] Received FILES data: {"productImages":{"name":["stainless steel forks.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php73ED.tmp"],"error":[0],"size":[6527]}}
+[2025-09-25 10:27:38] Using manual stock input: 100
+[2025-09-25 10:27:38] Calculated total stock from variants: 100
+[2025-09-25 10:27:38] Validated input: name='Stainless Stell Forks (5)', category_id=2, stock=100, buying_price=90, selling_price=130
+[2025-09-25 10:27:38] Processing image uploads
+[2025-09-25 10:27:38] Attempting to move uploaded file to: images/product_68d4fcfad516b.jpeg
+[2025-09-25 10:27:38] Successfully uploaded image: images/product_68d4fcfad516b.jpeg
+[2025-09-25 10:27:38] Starting database transaction
+[2025-09-25 10:27:38] Inserting product into database
+[2025-09-25 10:27:38] Product inserted with ID: 25
+[2025-09-25 10:27:38] Processing variants: []
+[2025-09-25 10:27:38] Committing transaction
+[2025-09-25 10:27:38] Product and variants added successfully
+[2025-09-25 10:30:02] Starting add_product.php
+[2025-09-25 10:30:02] Received POST data: {"productName":"Mika Water Dispenser","productCategory":"3","productStock":"5","productBuyingPrice":"1000","productSellingPrice":"2500","productDescription":"dispensers black and white","variantColor":["black"],"variantSize":["larger, freestanding units for 20-liter"],"variantAdditionalPrice":[""],"variantStock":["5"],"variants":"[{\"color\":\"black\",\"size\":\"larger, freestanding units for 20-liter\",\"additional_price\":0,\"stock\":5}]"}
+[2025-09-25 10:30:02] Received FILES data: {"productImages":{"name":["white water dispenser.jpeg","water dispenser.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpA66E.tmp","C:\\xampp\\tmp\\phpA67E.tmp"],"error":[0,0],"size":[3457,7067]}}
+[2025-09-25 10:30:02] Calculated total stock from variants: 5
+[2025-09-25 10:30:02] Calculated total stock from variants: 5
+[2025-09-25 10:30:02] Validated input: name='Mika Water Dispenser', category_id=3, stock=5, buying_price=1000, selling_price=2500
+[2025-09-25 10:30:02] Processing image uploads
+[2025-09-25 10:30:02] Attempting to move uploaded file to: images/product_68d4fd8ab1ca4.jpeg
+[2025-09-25 10:30:02] Successfully uploaded image: images/product_68d4fd8ab1ca4.jpeg
+[2025-09-25 10:30:02] Attempting to move uploaded file to: images/product_68d4fd8ab2c8d.jpeg
+[2025-09-25 10:30:02] Successfully uploaded image: images/product_68d4fd8ab2c8d.jpeg
+[2025-09-25 10:30:02] Starting database transaction
+[2025-09-25 10:30:02] Inserting product into database
+[2025-09-25 10:30:02] Product inserted with ID: 26
+[2025-09-25 10:30:02] Processing variants: [{"color":"black","size":"larger, freestanding units for 20-liter","additional_price":0,"stock":5}]
+[2025-09-25 10:30:02] Inserting variant: color='black', size='larger, freestanding units for 20-liter', additional_price=0, stock=5
+[2025-09-25 10:30:02] Variant inserted successfully
+[2025-09-25 10:30:02] Committing transaction
+[2025-09-25 10:30:02] Product and variants added successfully
+[2025-09-25 10:30:56] Starting add_product.php
+[2025-09-25 10:30:56] Received POST data: {"productName":"Ceramic Cups","productCategory":"2","productStock":"100","productBuyingPrice":"400","productSellingPrice":"600","productDescription":"","variants":"[]"}
+[2025-09-25 10:30:56] Received FILES data: {"productImages":{"name":["ceramic cups.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php76EF.tmp"],"error":[0],"size":[6672]}}
+[2025-09-25 10:30:56] Using manual stock input: 100
+[2025-09-25 10:30:56] Calculated total stock from variants: 100
+[2025-09-25 10:30:56] Validated input: name='Ceramic Cups', category_id=2, stock=100, buying_price=400, selling_price=600
+[2025-09-25 10:30:56] Processing image uploads
+[2025-09-25 10:30:56] Attempting to move uploaded file to: images/product_68d4fdc0161c1.jpeg
+[2025-09-25 10:30:56] Successfully uploaded image: images/product_68d4fdc0161c1.jpeg
+[2025-09-25 10:30:56] Starting database transaction
+[2025-09-25 10:30:56] Inserting product into database
+[2025-09-25 10:30:56] Product inserted with ID: 27
+[2025-09-25 10:30:56] Processing variants: []
+[2025-09-25 10:30:56] Committing transaction
+[2025-09-25 10:30:56] Product and variants added successfully
+[2025-09-25 10:31:55] Starting add_product.php
+[2025-09-25 10:31:55] Received POST data: {"productName":"White Porcelain Dinner Plates","productCategory":"2","productStock":"200","productBuyingPrice":"500","productSellingPrice":"900","productDescription":"White Porcelain Dinner Plates","variants":"[]"}
+[2025-09-25 10:31:55] Received FILES data: {"productImages":{"name":["white porcelain dinner plates.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php60F2.tmp"],"error":[0],"size":[4638]}}
+[2025-09-25 10:31:55] Using manual stock input: 200
+[2025-09-25 10:31:55] Calculated total stock from variants: 200
+[2025-09-25 10:31:55] Validated input: name='White Porcelain Dinner Plates', category_id=2, stock=200, buying_price=500, selling_price=900
+[2025-09-25 10:31:55] Processing image uploads
+[2025-09-25 10:31:55] Attempting to move uploaded file to: images/product_68d4fdfbf04e5.jpeg
+[2025-09-25 10:31:55] Successfully uploaded image: images/product_68d4fdfbf04e5.jpeg
+[2025-09-25 10:31:55] Starting database transaction
+[2025-09-25 10:31:55] Inserting product into database
+[2025-09-25 10:31:55] Product inserted with ID: 28
+[2025-09-25 10:31:55] Processing variants: []
+[2025-09-25 10:31:55] Committing transaction
+[2025-09-25 10:31:56] Product and variants added successfully
+[2025-09-25 10:32:29] Starting add_product.php
+[2025-09-25 10:32:29] Received POST data: {"productName":"Hot Dish","productCategory":"2","productStock":"20","productBuyingPrice":"450","productSellingPrice":"699","productDescription":"","variants":"[]"}
+[2025-09-25 10:32:29] Received FILES data: {"productImages":{"name":["hot dish.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpE219.tmp"],"error":[0],"size":[8996]}}
+[2025-09-25 10:32:29] Using manual stock input: 20
+[2025-09-25 10:32:29] Calculated total stock from variants: 20
+[2025-09-25 10:32:29] Validated input: name='Hot Dish', category_id=2, stock=20, buying_price=450, selling_price=699
+[2025-09-25 10:32:29] Processing image uploads
+[2025-09-25 10:32:29] Attempting to move uploaded file to: images/product_68d4fe1d0b2a1.jpeg
+[2025-09-25 10:32:29] Successfully uploaded image: images/product_68d4fe1d0b2a1.jpeg
+[2025-09-25 10:32:29] Starting database transaction
+[2025-09-25 10:32:29] Inserting product into database
+[2025-09-25 10:32:29] Product inserted with ID: 29
+[2025-09-25 10:32:29] Processing variants: []
+[2025-09-25 10:32:29] Committing transaction
+[2025-09-25 10:32:29] Product and variants added successfully
+[2025-09-25 10:33:27] Starting add_product.php
+[2025-09-25 10:33:27] Received POST data: {"productName":"Mini Thermos Flask","productCategory":"2","productStock":"40","productBuyingPrice":"300","productSellingPrice":"600","productDescription":"","variantColor":["pink","red"],"variantSize":["mini","mini"],"variantAdditionalPrice":["",""],"variantStock":["20","20"],"variants":"[{\"color\":\"pink\",\"size\":\"mini\",\"additional_price\":0,\"stock\":20},{\"color\":\"red\",\"size\":\"mini\",\"additional_price\":0,\"stock\":20}]"}
+[2025-09-25 10:33:27] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-09-25 10:33:27] Calculated total stock from variants: 40
+[2025-09-25 10:33:27] Calculated total stock from variants: 40
+[2025-09-25 10:33:27] Validated input: name='Mini Thermos Flask', category_id=2, stock=40, buying_price=300, selling_price=600
+[2025-09-25 10:33:27] No images uploaded
+[2025-09-25 10:33:27] Starting database transaction
+[2025-09-25 10:33:27] Inserting product into database
+[2025-09-25 10:33:27] Product inserted with ID: 30
+[2025-09-25 10:33:27] Processing variants: [{"color":"pink","size":"mini","additional_price":0,"stock":20},{"color":"red","size":"mini","additional_price":0,"stock":20}]
+[2025-09-25 10:33:27] Inserting variant: color='pink', size='mini', additional_price=0, stock=20
+[2025-09-25 10:33:27] Variant inserted successfully
+[2025-09-25 10:33:27] Inserting variant: color='red', size='mini', additional_price=0, stock=20
+[2025-09-25 10:33:27] Variant inserted successfully
+[2025-09-25 10:33:27] Committing transaction
+[2025-09-25 10:33:27] Product and variants added successfully
+[2025-09-25 10:34:10] Starting add_product.php
+[2025-09-25 10:34:10] Received POST data: {"productName":"Vogue Thermos","productCategory":"2","productStock":"30","productBuyingPrice":"200","productSellingPrice":"350","productDescription":"","variants":"[]"}
+[2025-09-25 10:34:10] Received FILES data: {"productImages":{"name":["vogue thermos.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php700D.tmp"],"error":[0],"size":[4087]}}
+[2025-09-25 10:34:10] Using manual stock input: 30
+[2025-09-25 10:34:10] Calculated total stock from variants: 30
+[2025-09-25 10:34:10] Validated input: name='Vogue Thermos', category_id=2, stock=30, buying_price=200, selling_price=350
+[2025-09-25 10:34:10] Processing image uploads
+[2025-09-25 10:34:10] Attempting to move uploaded file to: images/product_68d4fe82dfc8f.jpeg
+[2025-09-25 10:34:10] Successfully uploaded image: images/product_68d4fe82dfc8f.jpeg
+[2025-09-25 10:34:10] Starting database transaction
+[2025-09-25 10:34:10] Inserting product into database
+[2025-09-25 10:34:10] Product inserted with ID: 31
+[2025-09-25 10:34:10] Processing variants: []
+[2025-09-25 10:34:10] Committing transaction
+[2025-09-25 10:34:10] Product and variants added successfully
+[2025-09-25 10:34:45] Starting add_product.php
+[2025-09-25 10:34:45] Received POST data: {"productName":"Tea Kettle","productCategory":"2","productStock":"40","productBuyingPrice":"600","productSellingPrice":"890","productDescription":"","variants":"[]"}
+[2025-09-25 10:34:45] Received FILES data: {"productImages":{"name":["tea kettle.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpF74F.tmp"],"error":[0],"size":[7159]}}
+[2025-09-25 10:34:45] Using manual stock input: 40
+[2025-09-25 10:34:45] Calculated total stock from variants: 40
+[2025-09-25 10:34:45] Validated input: name='Tea Kettle', category_id=2, stock=40, buying_price=600, selling_price=890
+[2025-09-25 10:34:45] Processing image uploads
+[2025-09-25 10:34:45] Attempting to move uploaded file to: images/product_68d4fea5847dc.jpeg
+[2025-09-25 10:34:45] Successfully uploaded image: images/product_68d4fea5847dc.jpeg
+[2025-09-25 10:34:45] Starting database transaction
+[2025-09-25 10:34:45] Inserting product into database
+[2025-09-25 10:34:45] Product inserted with ID: 32
+[2025-09-25 10:34:45] Processing variants: []
+[2025-09-25 10:34:45] Committing transaction
+[2025-09-25 10:34:45] Product and variants added successfully
+[2025-09-25 10:35:32] Starting add_product.php
+[2025-09-25 10:35:32] Received POST data: {"productName":"Cordless Electric Kettle","productCategory":"3","productStock":"15","productBuyingPrice":"700","productSellingPrice":"1200","productDescription":"","variants":"[]"}
+[2025-09-25 10:35:32] Received FILES data: {"productImages":{"name":["cordless electric kettle.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpAFC3.tmp"],"error":[0],"size":[5773]}}
+[2025-09-25 10:35:32] Using manual stock input: 15
+[2025-09-25 10:35:32] Calculated total stock from variants: 15
+[2025-09-25 10:35:32] Validated input: name='Cordless Electric Kettle', category_id=3, stock=15, buying_price=700, selling_price=1200
+[2025-09-25 10:35:32] Processing image uploads
+[2025-09-25 10:35:32] Attempting to move uploaded file to: images/product_68d4fed4be3ee.jpeg
+[2025-09-25 10:35:32] Successfully uploaded image: images/product_68d4fed4be3ee.jpeg
+[2025-09-25 10:35:32] Starting database transaction
+[2025-09-25 10:35:32] Inserting product into database
+[2025-09-25 10:35:32] Product inserted with ID: 33
+[2025-09-25 10:35:32] Processing variants: []
+[2025-09-25 10:35:32] Committing transaction
+[2025-09-25 10:35:32] Product and variants added successfully
+[2025-09-25 10:36:07] Starting add_product.php
+[2025-09-25 10:36:07] Received POST data: {"productName":"Pressure Cooker","productCategory":"1","productStock":"6","productBuyingPrice":"1200","productSellingPrice":"1800","productDescription":"","variants":"[]"}
+[2025-09-25 10:36:07] Received FILES data: {"productImages":{"name":["pressure cooker.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php3782.tmp"],"error":[0],"size":[5307]}}
+[2025-09-25 10:36:07] Using manual stock input: 6
+[2025-09-25 10:36:07] Calculated total stock from variants: 6
+[2025-09-25 10:36:07] Validated input: name='Pressure Cooker', category_id=1, stock=6, buying_price=1200, selling_price=1800
+[2025-09-25 10:36:07] Processing image uploads
+[2025-09-25 10:36:07] Attempting to move uploaded file to: images/product_68d4fef77fcb7.jpeg
+[2025-09-25 10:36:07] Successfully uploaded image: images/product_68d4fef77fcb7.jpeg
+[2025-09-25 10:36:07] Starting database transaction
+[2025-09-25 10:36:07] Inserting product into database
+[2025-09-25 10:36:07] Product inserted with ID: 34
+[2025-09-25 10:36:07] Processing variants: []
+[2025-09-25 10:36:07] Committing transaction
+[2025-09-25 10:36:07] Product and variants added successfully
+[2025-09-25 10:36:38] Starting add_product.php
+[2025-09-25 10:36:38] Received POST data: {"productName":"Range Cooker","productCategory":"1","productStock":"8","productBuyingPrice":"1000","productSellingPrice":"1650","productDescription":"","variants":"[]"}
+[2025-09-25 10:36:38] Received FILES data: {"productImages":{"name":["range cooker.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpAF63.tmp"],"error":[0],"size":[9377]}}
+[2025-09-25 10:36:38] Using manual stock input: 8
+[2025-09-25 10:36:38] Calculated total stock from variants: 8
+[2025-09-25 10:36:38] Validated input: name='Range Cooker', category_id=1, stock=8, buying_price=1000, selling_price=1650
+[2025-09-25 10:36:38] Processing image uploads
+[2025-09-25 10:36:38] Attempting to move uploaded file to: images/product_68d4ff163147d.jpeg
+[2025-09-25 10:36:38] Successfully uploaded image: images/product_68d4ff163147d.jpeg
+[2025-09-25 10:36:38] Starting database transaction
+[2025-09-25 10:36:38] Inserting product into database
+[2025-09-25 10:36:38] Product inserted with ID: 35
+[2025-09-25 10:36:38] Processing variants: []
+[2025-09-25 10:36:38] Committing transaction
+[2025-09-25 10:36:38] Product and variants added successfully
+[2025-09-25 10:37:18] Starting add_product.php
+[2025-09-25 10:37:18] Received POST data: {"productName":"Nunix 6 LTR fryer ","productCategory":"1","productStock":"10","productBuyingPrice":"3000","productSellingPrice":"5000","productDescription":"","variants":"[]"}
+[2025-09-25 10:37:18] Received FILES data: {"productImages":{"name":["nunix 6 ltrs fryer.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php4BC3.tmp"],"error":[0],"size":[7196]}}
+[2025-09-25 10:37:18] Using manual stock input: 10
+[2025-09-25 10:37:18] Calculated total stock from variants: 10
+[2025-09-25 10:37:18] Validated input: name='Nunix 6 LTR fryer ', category_id=1, stock=10, buying_price=3000, selling_price=5000
+[2025-09-25 10:37:18] Processing image uploads
+[2025-09-25 10:37:18] Attempting to move uploaded file to: images/product_68d4ff3e38e93.jpeg
+[2025-09-25 10:37:18] Successfully uploaded image: images/product_68d4ff3e38e93.jpeg
+[2025-09-25 10:37:18] Starting database transaction
+[2025-09-25 10:37:18] Inserting product into database
+[2025-09-25 10:37:18] Product inserted with ID: 36
+[2025-09-25 10:37:18] Processing variants: []
+[2025-09-25 10:37:18] Committing transaction
+[2025-09-25 10:37:18] Product and variants added successfully
+[2025-09-25 10:37:52] Starting add_product.php
+[2025-09-25 10:37:52] Received POST data: {"productName":"Plastic Spoons","productCategory":"2","productStock":"30","productBuyingPrice":"150","productSellingPrice":"300","productDescription":"","variants":"[]"}
+[2025-09-25 10:37:52] Received FILES data: {"productImages":{"name":["plastic poons.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpD2D6.tmp"],"error":[0],"size":[9608]}}
+[2025-09-25 10:37:52] Using manual stock input: 30
+[2025-09-25 10:37:52] Calculated total stock from variants: 30
+[2025-09-25 10:37:52] Validated input: name='Plastic Spoons', category_id=2, stock=30, buying_price=150, selling_price=300
+[2025-09-25 10:37:52] Processing image uploads
+[2025-09-25 10:37:52] Attempting to move uploaded file to: images/product_68d4ff60c7014.jpeg
+[2025-09-25 10:37:52] Successfully uploaded image: images/product_68d4ff60c7014.jpeg
+[2025-09-25 10:37:52] Starting database transaction
+[2025-09-25 10:37:52] Inserting product into database
+[2025-09-25 10:37:52] Product inserted with ID: 37
+[2025-09-25 10:37:52] Processing variants: []
+[2025-09-25 10:37:52] Committing transaction
+[2025-09-25 10:37:52] Product and variants added successfully
+[2025-09-25 10:38:24] Starting add_product.php
+[2025-09-25 10:38:24] Received POST data: {"productName":"Spoons","productCategory":"2","productStock":"50","productBuyingPrice":"210","productSellingPrice":"300","productDescription":"","variants":"[]"}
+[2025-09-25 10:38:24] Received FILES data: {"productImages":{"name":["spoons.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php4EAE.tmp"],"error":[0],"size":[7018]}}
+[2025-09-25 10:38:24] Using manual stock input: 50
+[2025-09-25 10:38:24] Calculated total stock from variants: 50
+[2025-09-25 10:38:24] Validated input: name='Spoons', category_id=2, stock=50, buying_price=210, selling_price=300
+[2025-09-25 10:38:24] Processing image uploads
+[2025-09-25 10:38:24] Attempting to move uploaded file to: images/product_68d4ff808017c.jpeg
+[2025-09-25 10:38:24] Successfully uploaded image: images/product_68d4ff808017c.jpeg
+[2025-09-25 10:38:24] Starting database transaction
+[2025-09-25 10:38:24] Inserting product into database
+[2025-09-25 10:38:24] Product inserted with ID: 38
+[2025-09-25 10:38:24] Processing variants: []
+[2025-09-25 10:38:24] Committing transaction
+[2025-09-25 10:38:24] Product and variants added successfully
+[2025-09-25 10:39:25] Starting add_product.php
+[2025-09-25 10:39:25] Received POST data: {"productName":"Plastic bundle serving spoons (bundles of 5 spoons)","productCategory":"2","productStock":"40","productBuyingPrice":"300","productSellingPrice":"490","productDescription":"","variants":"[]"}
+[2025-09-25 10:39:25] Received FILES data: {"productImages":{"name":["plastick bundle serving spoons.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php3B42.tmp"],"error":[0],"size":[9868]}}
+[2025-09-25 10:39:25] Using manual stock input: 40
+[2025-09-25 10:39:25] Calculated total stock from variants: 40
+[2025-09-25 10:39:25] Validated input: name='Plastic bundle serving spoons (bundles of 5 spoons)', category_id=2, stock=40, buying_price=300, selling_price=490
+[2025-09-25 10:39:25] Processing image uploads
+[2025-09-25 10:39:25] Attempting to move uploaded file to: images/product_68d4ffbd14029.jpeg
+[2025-09-25 10:39:25] Successfully uploaded image: images/product_68d4ffbd14029.jpeg
+[2025-09-25 10:39:25] Starting database transaction
+[2025-09-25 10:39:25] Inserting product into database
+[2025-09-25 10:39:25] Product inserted with ID: 39
+[2025-09-25 10:39:25] Processing variants: []
+[2025-09-25 10:39:25] Committing transaction
+[2025-09-25 10:39:25] Product and variants added successfully
+[2025-09-25 10:39:56] Starting add_product.php
+[2025-09-25 10:39:56] Received POST data: {"productName":"Wooden serving spoons","productCategory":"2","productStock":"7","productBuyingPrice":"100","productSellingPrice":"289","productDescription":"","variants":"[]"}
+[2025-09-25 10:39:56] Received FILES data: {"productImages":{"name":["wooden serving spoons.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpB778.tmp"],"error":[0],"size":[3141]}}
+[2025-09-25 10:39:56] Using manual stock input: 7
+[2025-09-25 10:39:56] Calculated total stock from variants: 7
+[2025-09-25 10:39:56] Validated input: name='Wooden serving spoons', category_id=2, stock=7, buying_price=100, selling_price=289
+[2025-09-25 10:39:56] Processing image uploads
+[2025-09-25 10:39:56] Attempting to move uploaded file to: images/product_68d4ffdcd46f8.jpeg
+[2025-09-25 10:39:56] Successfully uploaded image: images/product_68d4ffdcd46f8.jpeg
+[2025-09-25 10:39:56] Starting database transaction
+[2025-09-25 10:39:56] Inserting product into database
+[2025-09-25 10:39:56] Product inserted with ID: 40
+[2025-09-25 10:39:56] Processing variants: []
+[2025-09-25 10:39:56] Committing transaction
+[2025-09-25 10:39:56] Product and variants added successfully
+[2025-09-25 10:41:31] Starting add_product.php
+[2025-09-25 10:41:31] Received POST data: {"productName":"Frying Non Stick Pans","productCategory":"1","productStock":"62","productBuyingPrice":"600","productSellingPrice":"900","productDescription":"","variantColor":["black ","black","black"],"variantSize":["small","Medium","Large"],"variantAdditionalPrice":["","",""],"variantStock":["20","20","22"],"variants":"[{\"color\":\"black \",\"size\":\"small\",\"additional_price\":0,\"stock\":20},{\"color\":\"black\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":20},{\"color\":\"black\",\"size\":\"Large\",\"additional_price\":0,\"stock\":22}]"}
+[2025-09-25 10:41:31] Received FILES data: {"productImages":{"name":["pans different sizes.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php27E1.tmp"],"error":[0],"size":[6420]}}
+[2025-09-25 10:41:31] Calculated total stock from variants: 62
+[2025-09-25 10:41:31] Calculated total stock from variants: 62
+[2025-09-25 10:41:31] Validated input: name='Frying Non Stick Pans', category_id=1, stock=62, buying_price=600, selling_price=900
+[2025-09-25 10:41:31] Processing image uploads
+[2025-09-25 10:41:31] Attempting to move uploaded file to: images/product_68d5003b300fa.jpeg
+[2025-09-25 10:41:31] Successfully uploaded image: images/product_68d5003b300fa.jpeg
+[2025-09-25 10:41:31] Starting database transaction
+[2025-09-25 10:41:31] Inserting product into database
+[2025-09-25 10:41:31] Product inserted with ID: 41
+[2025-09-25 10:41:31] Processing variants: [{"color":"black ","size":"small","additional_price":0,"stock":20},{"color":"black","size":"Medium","additional_price":0,"stock":20},{"color":"black","size":"Large","additional_price":0,"stock":22}]
+[2025-09-25 10:41:31] Inserting variant: color='black ', size='small', additional_price=0, stock=20
+[2025-09-25 10:41:31] Variant inserted successfully
+[2025-09-25 10:41:31] Inserting variant: color='black', size='Medium', additional_price=0, stock=20
+[2025-09-25 10:41:31] Variant inserted successfully
+[2025-09-25 10:41:31] Inserting variant: color='black', size='Large', additional_price=0, stock=22
+[2025-09-25 10:41:31] Variant inserted successfully
+[2025-09-25 10:41:31] Committing transaction
+[2025-09-25 10:41:31] Product and variants added successfully
+[2025-09-25 10:42:40] Starting add_product.php
+[2025-09-25 10:42:40] Received POST data: {"productName":"Double Pan","productCategory":"1","productStock":"20","productBuyingPrice":"1000","productSellingPrice":"2500","productDescription":"","variants":"[]"}
+[2025-09-25 10:42:40] Received FILES data: {"productImages":{"name":["doublepan.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php37EB.tmp"],"error":[0],"size":[9147]}}
+[2025-09-25 10:42:40] Using manual stock input: 20
+[2025-09-25 10:42:40] Calculated total stock from variants: 20
+[2025-09-25 10:42:40] Validated input: name='Double Pan', category_id=1, stock=20, buying_price=1000, selling_price=2500
+[2025-09-25 10:42:40] Processing image uploads
+[2025-09-25 10:42:40] Attempting to move uploaded file to: images/product_68d50080c96da.jpeg
+[2025-09-25 10:42:40] Successfully uploaded image: images/product_68d50080c96da.jpeg
+[2025-09-25 10:42:40] Starting database transaction
+[2025-09-25 10:42:40] Inserting product into database
+[2025-09-25 10:42:40] Product inserted with ID: 42
+[2025-09-25 10:42:40] Processing variants: []
+[2025-09-25 10:42:40] Committing transaction
+[2025-09-25 10:42:40] Product and variants added successfully
+[2025-09-25 10:43:44] Starting add_product.php
+[2025-09-25 10:43:44] Received POST data: {"productName":"Cooking Pots-Sold as a unit of 5 pots Small-Large","productCategory":"1","productStock":"30","productBuyingPrice":"1400","productSellingPrice":"2300","productDescription":"","variants":"[]"}
+[2025-09-25 10:43:44] Received FILES data: {"productImages":{"name":["cooking ports black.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php316F.tmp"],"error":[0],"size":[6491]}}
+[2025-09-25 10:43:44] Using manual stock input: 30
+[2025-09-25 10:43:44] Calculated total stock from variants: 30
+[2025-09-25 10:43:44] Validated input: name='Cooking Pots-Sold as a unit of 5 pots Small-Large', category_id=1, stock=30, buying_price=1400, selling_price=2300
+[2025-09-25 10:43:44] Processing image uploads
+[2025-09-25 10:43:44] Attempting to move uploaded file to: images/product_68d500c0ae2ff.jpeg
+[2025-09-25 10:43:44] Successfully uploaded image: images/product_68d500c0ae2ff.jpeg
+[2025-09-25 10:43:44] Starting database transaction
+[2025-09-25 10:43:44] Inserting product into database
+[2025-09-25 10:43:44] Product inserted with ID: 43
+[2025-09-25 10:43:44] Processing variants: []
+[2025-09-25 10:43:44] Committing transaction
+[2025-09-25 10:43:44] Product and variants added successfully
+[2025-09-25 10:44:13] Starting add_product.php
+[2025-09-25 10:44:13] Received POST data: {"productName":"Glasses","productCategory":"2","productStock":"20","productBuyingPrice":"400","productSellingPrice":"800","productDescription":"","variants":"[]"}
+[2025-09-25 10:44:13] Received FILES data: {"productImages":{"name":["glass.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpA3A2.tmp"],"error":[0],"size":[10413]}}
+[2025-09-25 10:44:13] Using manual stock input: 20
+[2025-09-25 10:44:13] Calculated total stock from variants: 20
+[2025-09-25 10:44:13] Validated input: name='Glasses', category_id=2, stock=20, buying_price=400, selling_price=800
+[2025-09-25 10:44:13] Processing image uploads
+[2025-09-25 10:44:13] Attempting to move uploaded file to: images/product_68d500dde4890.jpeg
+[2025-09-25 10:44:13] Successfully uploaded image: images/product_68d500dde4890.jpeg
+[2025-09-25 10:44:13] Starting database transaction
+[2025-09-25 10:44:13] Inserting product into database
+[2025-09-25 10:44:13] Product inserted with ID: 44
+[2025-09-25 10:44:13] Processing variants: []
+[2025-09-25 10:44:13] Committing transaction
+[2025-09-25 10:44:13] Product and variants added successfully
+[2025-09-25 10:44:57] Starting add_product.php
+[2025-09-25 10:44:57] Received POST data: {"productName":"Kitchen Shears","productCategory":"2","productStock":"33","productBuyingPrice":"190","productSellingPrice":"300","productDescription":"","variants":"[]"}
+[2025-09-25 10:44:57] Received FILES data: {"productImages":{"name":["kitchen shears.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php4F35.tmp"],"error":[0],"size":[10719]}}
+[2025-09-25 10:44:57] Using manual stock input: 33
+[2025-09-25 10:44:57] Calculated total stock from variants: 33
+[2025-09-25 10:44:57] Validated input: name='Kitchen Shears', category_id=2, stock=33, buying_price=190, selling_price=300
+[2025-09-25 10:44:57] Processing image uploads
+[2025-09-25 10:44:57] Attempting to move uploaded file to: images/product_68d50109d4eeb.jpeg
+[2025-09-25 10:44:57] Successfully uploaded image: images/product_68d50109d4eeb.jpeg
+[2025-09-25 10:44:57] Starting database transaction
+[2025-09-25 10:44:57] Inserting product into database
+[2025-09-25 10:44:57] Product inserted with ID: 45
+[2025-09-25 10:44:57] Processing variants: []
+[2025-09-25 10:44:57] Committing transaction
+[2025-09-25 10:44:57] Product and variants added successfully
+[2025-09-25 10:45:31] Starting add_product.php
+[2025-09-25 10:45:31] Received POST data: {"productName":"Kitchen Knife ","productCategory":"1","productStock":"13","productBuyingPrice":"200","productSellingPrice":"348","productDescription":"","variants":"[]"}
+[2025-09-25 10:45:31] Received FILES data: {"productImages":{"name":["knives.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpD3D7.tmp"],"error":[0],"size":[4991]}}
+[2025-09-25 10:45:31] Using manual stock input: 13
+[2025-09-25 10:45:31] Calculated total stock from variants: 13
+[2025-09-25 10:45:31] Validated input: name='Kitchen Knife ', category_id=1, stock=13, buying_price=200, selling_price=348
+[2025-09-25 10:45:31] Processing image uploads
+[2025-09-25 10:45:31] Attempting to move uploaded file to: images/product_68d5012bc505d.jpeg
+[2025-09-25 10:45:31] Successfully uploaded image: images/product_68d5012bc505d.jpeg
+[2025-09-25 10:45:31] Starting database transaction
+[2025-09-25 10:45:31] Inserting product into database
+[2025-09-25 10:45:31] Product inserted with ID: 46
+[2025-09-25 10:45:31] Processing variants: []
+[2025-09-25 10:45:31] Committing transaction
+[2025-09-25 10:45:31] Product and variants added successfully
+[2025-09-25 11:16:02] Starting update_product.php
+[2025-09-25 11:16:02] Received POST data: {"editProductId":"30","editProductName":"Mini Thermos Flask","editProductCategory":"2","editProductStock":"40","editProductBuyingPrice":"300.00","editProductSellingPrice":"600.00","editProductDescription":"","variantColor":["pink","red"],"variantSize":["mini","mini"],"variantAdditionalPrice":["0.00","0.00"],"variantStock":["20","20"],"variants":"[{\"color\":\"pink\",\"size\":\"mini\",\"additional_price\":0,\"stock\":20},{\"color\":\"red\",\"size\":\"mini\",\"additional_price\":0,\"stock\":20}]"}
+[2025-09-25 11:16:02] Received FILES data: {"productImages":{"name":["red.jpeg","pink mini thermos.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpC1FE.tmp","C:\\xampp\\tmp\\phpC1FF.tmp"],"error":[0,0],"size":[3336,2942]}}
+[2025-09-25 11:30:52] Starting add_product.php
+[2025-09-25 11:30:52] Received POST data: {"productName":"Ramtons 2 Door fridge ","productCategory":"3","productStock":"5","productBuyingPrice":"16000","productSellingPrice":"22390","productDescription":"","variants":"[]"}
+[2025-09-25 11:30:52] Received FILES data: {"productImages":{"name":["2 door fridg ramtons.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php56ED.tmp"],"error":[0],"size":[3632]}}
+[2025-09-25 11:30:52] Using manual stock input: 5
+[2025-09-25 11:30:52] Calculated total stock from variants: 5
+[2025-09-25 11:30:52] Validated input: name='Ramtons 2 Door fridge ', category_id=3, stock=5, buying_price=16000, selling_price=22390
+[2025-09-25 11:30:52] Processing image uploads
+[2025-09-25 11:30:52] Attempting to move uploaded file to: images/product_68d50bcc58b4f.jpeg
+[2025-09-25 11:30:52] Successfully uploaded image: images/product_68d50bcc58b4f.jpeg
+[2025-09-25 11:30:52] Starting database transaction
+[2025-09-25 11:30:52] Inserting product into database
+[2025-09-25 11:30:52] Product inserted with ID: 47
+[2025-09-25 11:30:52] Processing variants: []
+[2025-09-25 11:30:52] Committing transaction
+[2025-09-25 11:30:52] Product and variants added successfully
+[2025-09-25 11:31:53] Starting add_product.php
+[2025-09-25 11:31:53] Received POST data: {"productName":"Fridge","productCategory":"3","productStock":"30","productBuyingPrice":"8000","productSellingPrice":"10000","productDescription":"","variantColor":["White","black"],"variantSize":["Medium","Medium"],"variantAdditionalPrice":["",""],"variantStock":["20","10"],"variants":"[{\"color\":\"White\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":20},{\"color\":\"black\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":10}]"}
+[2025-09-25 11:31:53] Received FILES data: {"productImages":{"name":["blsck fridege.jpeg","fridege.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php447B.tmp","C:\\xampp\\tmp\\php448B.tmp"],"error":[0,0],"size":[1782,2430]}}
+[2025-09-25 11:31:53] Calculated total stock from variants: 30
+[2025-09-25 11:31:53] Calculated total stock from variants: 30
+[2025-09-25 11:31:53] Validated input: name='Fridge', category_id=3, stock=30, buying_price=8000, selling_price=10000
+[2025-09-25 11:31:53] Processing image uploads
+[2025-09-25 11:31:53] Attempting to move uploaded file to: images/product_68d50c092b4f6.jpeg
+[2025-09-25 11:31:53] Successfully uploaded image: images/product_68d50c092b4f6.jpeg
+[2025-09-25 11:31:53] Attempting to move uploaded file to: images/product_68d50c092d44e.jpeg
+[2025-09-25 11:31:53] Successfully uploaded image: images/product_68d50c092d44e.jpeg
+[2025-09-25 11:31:53] Starting database transaction
+[2025-09-25 11:31:53] Inserting product into database
+[2025-09-25 11:31:53] Product inserted with ID: 48
+[2025-09-25 11:31:53] Processing variants: [{"color":"White","size":"Medium","additional_price":0,"stock":20},{"color":"black","size":"Medium","additional_price":0,"stock":10}]
+[2025-09-25 11:31:53] Inserting variant: color='White', size='Medium', additional_price=0, stock=20
+[2025-09-25 11:31:53] Variant inserted successfully
+[2025-09-25 11:31:53] Inserting variant: color='black', size='Medium', additional_price=0, stock=10
+[2025-09-25 11:31:53] Variant inserted successfully
+[2025-09-25 11:31:53] Committing transaction
+[2025-09-25 11:31:53] Product and variants added successfully
+[2025-09-25 11:32:47] Starting add_product.php
+[2025-09-25 11:32:47] Received POST data: {"productName":"Cooker-Ramptons","productCategory":"1","productStock":"4","productBuyingPrice":"1900","productSellingPrice":"3200","productDescription":"","variants":"[]"}
+[2025-09-25 11:32:47] Received FILES data: {"productImages":{"name":["cooker.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php1A8A.tmp"],"error":[0],"size":[4913]}}
+[2025-09-25 11:32:47] Using manual stock input: 4
+[2025-09-25 11:32:47] Calculated total stock from variants: 4
+[2025-09-25 11:32:47] Validated input: name='Cooker-Ramptons', category_id=1, stock=4, buying_price=1900, selling_price=3200
+[2025-09-25 11:32:47] Processing image uploads
+[2025-09-25 11:32:47] Attempting to move uploaded file to: images/product_68d50c3feae80.jpeg
+[2025-09-25 11:32:47] Successfully uploaded image: images/product_68d50c3feae80.jpeg
+[2025-09-25 11:32:47] Starting database transaction
+[2025-09-25 11:32:47] Inserting product into database
+[2025-09-25 11:32:47] Product inserted with ID: 49
+[2025-09-25 11:32:47] Processing variants: []
+[2025-09-25 11:32:47] Committing transaction
+[2025-09-25 11:32:47] Product and variants added successfully
+[2025-09-25 11:33:14] Starting add_product.php
+[2025-09-25 11:33:14] Received POST data: {"productName":"Rack","productCategory":"1","productStock":"13","productBuyingPrice":"400","productSellingPrice":"660","productDescription":"","variants":"[]"}
+[2025-09-25 11:33:14] Received FILES data: {"productImages":{"name":["rack.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php8153.tmp"],"error":[0],"size":[12217]}}
+[2025-09-25 11:33:14] Using manual stock input: 13
+[2025-09-25 11:33:14] Calculated total stock from variants: 13
+[2025-09-25 11:33:14] Validated input: name='Rack', category_id=1, stock=13, buying_price=400, selling_price=660
+[2025-09-25 11:33:14] Processing image uploads
+[2025-09-25 11:33:14] Attempting to move uploaded file to: images/product_68d50c5a41e93.jpeg
+[2025-09-25 11:33:14] Successfully uploaded image: images/product_68d50c5a41e93.jpeg
+[2025-09-25 11:33:14] Starting database transaction
+[2025-09-25 11:33:14] Inserting product into database
+[2025-09-25 11:33:14] Product inserted with ID: 50
+[2025-09-25 11:33:14] Processing variants: []
+[2025-09-25 11:33:14] Committing transaction
+[2025-09-25 11:33:14] Product and variants added successfully
+[2025-09-25 11:34:05] Starting add_product.php
+[2025-09-25 11:34:05] Received POST data: {"productName":"Ramtons Cooker With Oven","productCategory":"1","productStock":"6","productBuyingPrice":"13000","productSellingPrice":"20000","productDescription":"","variants":"[]"}
+[2025-09-25 11:34:05] Received FILES data: {"productImages":{"name":["ramtons cooker with oven.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php48BB.tmp"],"error":[0],"size":[5477]}}
+[2025-09-25 11:34:05] Using manual stock input: 6
+[2025-09-25 11:34:05] Calculated total stock from variants: 6
+[2025-09-25 11:34:05] Validated input: name='Ramtons Cooker With Oven', category_id=1, stock=6, buying_price=13000, selling_price=20000
+[2025-09-25 11:34:05] Processing image uploads
+[2025-09-25 11:34:05] Attempting to move uploaded file to: images/product_68d50c8d4e4b1.jpeg
+[2025-09-25 11:34:05] Successfully uploaded image: images/product_68d50c8d4e4b1.jpeg
+[2025-09-25 11:34:05] Starting database transaction
+[2025-09-25 11:34:05] Inserting product into database
+[2025-09-25 11:34:05] Product inserted with ID: 51
+[2025-09-25 11:34:05] Processing variants: []
+[2025-09-25 11:34:05] Committing transaction
+[2025-09-25 11:34:05] Product and variants added successfully
+[2025-09-25 11:44:10] Starting add_product.php
+[2025-09-25 11:44:10] Received POST data: {"productName":"Tumblers ","productCategory":"2","productStock":"30","productBuyingPrice":"70","productSellingPrice":"110","productDescription":"","variantColor":["red","clear"],"variantSize":["Medium","Medium"],"variantAdditionalPrice":["",""],"variantStock":["20","10"],"variants":"[{\"color\":\"red\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":20},{\"color\":\"clear\",\"size\":\"Medium\",\"additional_price\":0,\"stock\":10}]"}
+[2025-09-25 11:44:10] Received FILES data: {"productImages":{"name":["clear tumblers.jpeg","red tumblers.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php856B.tmp","C:\\xampp\\tmp\\php856C.tmp"],"error":[0,0],"size":[6032,8127]}}
+[2025-09-25 11:44:10] Calculated total stock from variants: 30
+[2025-09-25 11:44:10] Calculated total stock from variants: 30
+[2025-09-25 11:44:10] Validated input: name='Tumblers ', category_id=2, stock=30, buying_price=70, selling_price=110
+[2025-09-25 11:44:10] Processing image uploads
+[2025-09-25 11:44:10] Attempting to move uploaded file to: images/product_68d50eeaab407.jpeg
+[2025-09-25 11:44:10] Successfully uploaded image: images/product_68d50eeaab407.jpeg
+[2025-09-25 11:44:10] Attempting to move uploaded file to: images/product_68d50eeaac2b6.jpeg
+[2025-09-25 11:44:10] Successfully uploaded image: images/product_68d50eeaac2b6.jpeg
+[2025-09-25 11:44:10] Starting database transaction
+[2025-09-25 11:44:10] Inserting product into database
+[2025-09-25 11:44:10] Product inserted with ID: 52
+[2025-09-25 11:44:10] Processing variants: [{"color":"red","size":"Medium","additional_price":0,"stock":20},{"color":"clear","size":"Medium","additional_price":0,"stock":10}]
+[2025-09-25 11:44:10] Inserting variant: color='red', size='Medium', additional_price=0, stock=20
+[2025-09-25 11:44:10] Variant inserted successfully
+[2025-09-25 11:44:10] Inserting variant: color='clear', size='Medium', additional_price=0, stock=10
+[2025-09-25 11:44:10] Variant inserted successfully
+[2025-09-25 11:44:10] Committing transaction
+[2025-09-25 11:44:10] Product and variants added successfully
+[2025-09-25 11:44:59] Starting add_product.php
+[2025-09-25 11:44:59] Received POST data: {"productName":"Agaro Electric-Juicer","productCategory":"3","productStock":"7","productBuyingPrice":"600","productSellingPrice":"969","productDescription":"","variants":"[]"}
+[2025-09-25 11:44:59] Received FILES data: {"productImages":{"name":["agaro electric juicer.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php42B3.tmp"],"error":[0],"size":[5611]}}
+[2025-09-25 11:44:59] Using manual stock input: 7
+[2025-09-25 11:44:59] Calculated total stock from variants: 7
+[2025-09-25 11:44:59] Validated input: name='Agaro Electric-Juicer', category_id=3, stock=7, buying_price=600, selling_price=969
+[2025-09-25 11:44:59] Processing image uploads
+[2025-09-25 11:44:59] Attempting to move uploaded file to: images/product_68d50f1b218e7.jpeg
+[2025-09-25 11:44:59] Successfully uploaded image: images/product_68d50f1b218e7.jpeg
+[2025-09-25 11:44:59] Starting database transaction
+[2025-09-25 11:44:59] Inserting product into database
+[2025-09-25 11:44:59] Product inserted with ID: 53
+[2025-09-25 11:44:59] Processing variants: []
+[2025-09-25 11:44:59] Committing transaction
+[2025-09-25 11:44:59] Product and variants added successfully
+[2025-09-25 11:45:30] Starting add_product.php
+[2025-09-25 11:45:30] Received POST data: {"productName":"Sokany Electric-Juicer","productCategory":"3","productStock":"9","productBuyingPrice":"780","productSellingPrice":"1230","productDescription":"","variants":"[]"}
+[2025-09-25 11:45:30] Received FILES data: {"productImages":{"name":["sokany electric juicer.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpBE8B.tmp"],"error":[0],"size":[7689]}}
+[2025-09-25 11:45:30] Using manual stock input: 9
+[2025-09-25 11:45:30] Calculated total stock from variants: 9
+[2025-09-25 11:45:30] Validated input: name='Sokany Electric-Juicer', category_id=3, stock=9, buying_price=780, selling_price=1230
+[2025-09-25 11:45:30] Processing image uploads
+[2025-09-25 11:45:30] Attempting to move uploaded file to: images/product_68d50f3acb053.jpeg
+[2025-09-25 11:45:30] Successfully uploaded image: images/product_68d50f3acb053.jpeg
+[2025-09-25 11:45:30] Starting database transaction
+[2025-09-25 11:45:30] Inserting product into database
+[2025-09-25 11:45:30] Product inserted with ID: 54
+[2025-09-25 11:45:30] Processing variants: []
+[2025-09-25 11:45:30] Committing transaction
+[2025-09-25 11:45:30] Product and variants added successfully
+[2025-09-25 11:50:54] Starting add_product.php
+[2025-09-25 11:50:54] Received POST data: {"productName":"Ramptons Dry Cleaner","productCategory":"3","productStock":"4","productBuyingPrice":"3400","productSellingPrice":"5000","productDescription":"","variants":"[]"}
+[2025-09-25 11:50:54] Received FILES data: {"productImages":{"name":["ramtons dry cleaner.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpAE28.tmp"],"error":[0],"size":[5439]}}
+[2025-09-25 11:50:54] Using manual stock input: 4
+[2025-09-25 11:50:54] Calculated total stock from variants: 4
+[2025-09-25 11:50:54] Validated input: name='Ramptons Dry Cleaner', category_id=3, stock=4, buying_price=3400, selling_price=5000
+[2025-09-25 11:50:54] Processing image uploads
+[2025-09-25 11:50:54] Attempting to move uploaded file to: images/product_68d5107e4fd22.jpeg
+[2025-09-25 11:50:54] Successfully uploaded image: images/product_68d5107e4fd22.jpeg
+[2025-09-25 11:50:54] Starting database transaction
+[2025-09-25 11:50:54] Inserting product into database
+[2025-09-25 11:50:54] Product inserted with ID: 55
+[2025-09-25 11:50:54] Processing variants: []
+[2025-09-25 11:50:54] Committing transaction
+[2025-09-25 11:50:54] Product and variants added successfully
+[2025-09-25 11:51:38] Starting add_product.php
+[2025-09-25 11:51:38] Received POST data: {"productName":"Microwave","productCategory":"3","productStock":"7","productBuyingPrice":"2300","productSellingPrice":"3700","productDescription":"","variants":"[]"}
+[2025-09-25 11:51:38] Received FILES data: {"productImages":{"name":["microwave ramptons.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php5B90.tmp"],"error":[0],"size":[5938]}}
+[2025-09-25 11:51:38] Using manual stock input: 7
+[2025-09-25 11:51:38] Calculated total stock from variants: 7
+[2025-09-25 11:51:38] Validated input: name='Microwave', category_id=3, stock=7, buying_price=2300, selling_price=3700
+[2025-09-25 11:51:38] Processing image uploads
+[2025-09-25 11:51:38] Attempting to move uploaded file to: images/product_68d510aaaf1f8.jpeg
+[2025-09-25 11:51:38] Successfully uploaded image: images/product_68d510aaaf1f8.jpeg
+[2025-09-25 11:51:38] Starting database transaction
+[2025-09-25 11:51:38] Inserting product into database
+[2025-09-25 11:51:38] Product inserted with ID: 56
+[2025-09-25 11:51:38] Processing variants: []
+[2025-09-25 11:51:38] Committing transaction
+[2025-09-25 11:51:38] Product and variants added successfully
+[2025-10-04 12:34:19] Starting update_product.php
+[2025-10-04 12:34:19] Received POST data: {"editProductId":"26","editProductName":"Mika Water Dispenser","editProductCategory":"3","editProductStock":"5","editProductBuyingPrice":"1000.00","editProductSellingPrice":"2500.00","editProductDescription":"dispensers black and white","variantColor":["black"],"variantSize":["large, freestanding units for 20-liter"],"variantAdditionalPrice":["0.00"],"variantStock":["5"],"variants":"[{\"color\":\"black\",\"size\":\"large, freestanding units for 20-liter\",\"additional_price\":0,\"stock\":5}]"}
+[2025-10-04 12:34:19] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-10-04 12:35:17] Starting update_product.php
+[2025-10-04 12:35:17] Received POST data: {"editProductId":"26","editProductName":"Mika Water Dispenser","editProductCategory":"3","editProductStock":"5","editProductBuyingPrice":"1000.00","editProductSellingPrice":"2500.00","editProductDescription":"dispensers black and white","variantColor":["black"],"variantSize":["large, freestanding units for 20-liter"],"variantAdditionalPrice":["0.00"],"variantStock":["5"],"variants":"[{\"color\":\"black\",\"size\":\"large, freestanding units for 20-liter\",\"additional_price\":0,\"stock\":5}]"}
+[2025-10-04 12:35:17] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-10-04 12:35:54] Starting update_product.php
+[2025-10-04 12:35:54] Received POST data: {"editProductId":"26","editProductName":"Mika Water Dispenser","editProductCategory":"3","editProductStock":"5","editProductBuyingPrice":"1000.00","editProductSellingPrice":"2500.00","editProductDescription":"dispensers black and white","variantColor":["black"],"variantSize":["large, freestanding units for 20-liter"],"variantAdditionalPrice":["0.00"],"variantStock":["5"],"variants":"[{\"color\":\"black\",\"size\":\"large, freestanding units for 20-liter\",\"additional_price\":0,\"stock\":5}]"}
+[2025-10-04 12:35:54] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-10-04 12:36:54] Starting update_product.php
+[2025-10-04 12:36:54] Received POST data: {"editProductId":"26","editProductName":"Mika Water Dispenser","editProductCategory":"3","editProductStock":"10","editProductBuyingPrice":"1000.00","editProductSellingPrice":"2500.00","editProductDescription":"dispensers black and white","variantColor":["black","black"],"variantSize":["large, freestanding units for 20-liter","large, freestanding units for 20-liter"],"variantAdditionalPrice":["0.00","0.00"],"variantStock":["5","5"],"variants":"[{\"color\":\"black\",\"size\":\"large, freestanding units for 20-liter\",\"additional_price\":0,\"stock\":5},{\"color\":\"black\",\"size\":\"large, freestanding units for 20-liter\",\"additional_price\":0,\"stock\":5}]"}
+[2025-10-04 12:36:54] Received FILES data: {"productImages":{"name":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2025-10-04 12:40:06] Starting add_product.php
+[2025-10-04 12:40:06] Received POST data: {"productName":"fridge","productCategory":"3","productStock":"20","productBuyingPrice":"20000","productSellingPrice":"35000","productDescription":"","variantColor":["black ","White"],"variantSize":["Large","Large"],"variantAdditionalPrice":["",""],"variantStock":["10","10"],"variants":"[{\"color\":\"black \",\"size\":\"Large\",\"additional_price\":0,\"stock\":10},{\"color\":\"White\",\"size\":\"Large\",\"additional_price\":0,\"stock\":10}]"}
+[2025-10-04 12:40:06] Received FILES data: {"productImages":{"name":["download (1).jpeg","download.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpF6AA.tmp","C:\\xampp\\tmp\\phpF6AB.tmp"],"error":[0,0],"size":[2172,2569]}}
+[2025-10-04 12:40:06] Calculated total stock from variants: 20
+[2025-10-04 12:40:06] Calculated total stock from variants: 20
+[2025-10-04 12:40:06] Validated input: name='fridge', category_id=3, stock=20, buying_price=20000, selling_price=35000
+[2025-10-04 12:40:06] Processing image uploads
+[2025-10-04 12:40:06] Attempting to move uploaded file to: images/product_68e0f986e2d2e.jpeg
+[2025-10-04 12:40:06] Successfully uploaded image: images/product_68e0f986e2d2e.jpeg
+[2025-10-04 12:40:06] Attempting to move uploaded file to: images/product_68e0f986e5485.jpeg
+[2025-10-04 12:40:06] Successfully uploaded image: images/product_68e0f986e5485.jpeg
+[2025-10-04 12:40:06] Starting database transaction
+[2025-10-04 12:40:06] Inserting product into database
+[2025-10-04 12:40:06] Product inserted with ID: 57
+[2025-10-04 12:40:06] Processing variants: [{"color":"black ","size":"Large","additional_price":0,"stock":10},{"color":"White","size":"Large","additional_price":0,"stock":10}]
+[2025-10-04 12:40:06] Inserting variant: color='black ', size='Large', additional_price=0, stock=10
+[2025-10-04 12:40:06] Variant inserted successfully
+[2025-10-04 12:40:06] Inserting variant: color='White', size='Large', additional_price=0, stock=10
+[2025-10-04 12:40:06] Variant inserted successfully
+[2025-10-04 12:40:06] Committing transaction
+[2025-10-04 12:40:06] Product and variants added successfully
+[2025-10-13 11:59:09] Starting add_product.php
+[2025-10-13 11:59:09] Received POST data: {"productName":"Non Stick pots","productCategory":"1","productStock":"22","productBuyingPrice":"2000","productSellingPrice":"30000","productDescription":"long","variants":"[]"}
+[2025-10-13 11:59:09] Received FILES data: {"productImages":{"name":["1.jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php505.tmp"],"error":[0],"size":[128705]}}
+[2025-10-13 11:59:09] Using manual stock input: 22
+[2025-10-13 11:59:09] Calculated total stock from variants: 22
+[2025-10-13 11:59:09] Validated input: name='Non Stick pots', category_id=1, stock=22, buying_price=2000, selling_price=30000
+[2025-10-13 11:59:09] Processing image uploads
+[2025-10-13 11:59:09] Attempting to move uploaded file to: images/product_68eccd6db00ff.jpg
+[2025-10-13 11:59:09] Successfully uploaded image: images/product_68eccd6db00ff.jpg
+[2025-10-13 11:59:09] Starting database transaction
+[2025-10-13 11:59:09] Inserting product into database
+[2025-10-13 11:59:09] Product inserted with ID: 58
+[2025-10-13 11:59:09] Processing variants: []
+[2025-10-13 11:59:09] Committing transaction
+[2025-10-13 11:59:09] Product and variants added successfully
+[2025-10-13 13:08:08] Starting add_product.php
+[2025-10-13 13:08:08] Received POST data: {"productName":"Baskets ","productCategory":"1","productStock":"88","productBuyingPrice":"89","productSellingPrice":"900","productDescription":"mmm","variants":"[]"}
+[2025-10-13 13:08:08] Received FILES data: {"productImages":{"name":["2.jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php2CBF.tmp"],"error":[0],"size":[130050]}}
+[2025-10-13 13:08:08] Using manual stock input: 88
+[2025-10-13 13:08:08] Calculated total stock from variants: 88
+[2025-10-13 13:08:08] Validated input: name='Baskets ', category_id=1, stock=88, buying_price=89, selling_price=900
+[2025-10-13 13:08:08] Processing image uploads
+[2025-10-13 13:08:08] Attempting to move uploaded file to: images/product_68ecdd98a6a64.jpg
+[2025-10-13 13:08:08] Successfully uploaded image: images/product_68ecdd98a6a64.jpg
+[2025-10-13 13:08:08] Starting database transaction
+[2025-10-13 13:08:08] Inserting product into database
+[2025-10-13 13:08:08] Product inserted with ID: 59
+[2025-10-13 13:08:08] Processing variants: []
+[2025-10-13 13:08:08] Committing transaction
+[2025-10-13 13:08:08] Product and variants added successfully
+[2025-10-14 17:07:31] Starting add_product.php
+[2025-10-14 17:07:31] Received POST data: {"productName":"Baskets ","productCategory":"1","productStock":"1","productBuyingPrice":"89","productSellingPrice":"900","productDescription":"good","variants":"[]"}
+[2025-10-14 17:07:31] Received FILES data: {"productImages":{"name":["download.jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpD6C6.tmp"],"error":[0],"size":[5161]}}
+[2025-10-14 17:07:31] Using manual stock input: 1
+[2025-10-14 17:07:31] Calculated total stock from variants: 1
+[2025-10-14 17:07:31] Validated input: name='Baskets ', category_id=1, stock=1, buying_price=89, selling_price=900
+[2025-10-14 17:07:31] Processing image uploads
+[2025-10-14 17:07:31] Attempting to move uploaded file to: images/product_68ee673383b63.jpg
+[2025-10-14 17:07:31] Successfully uploaded image: images/product_68ee673383b63.jpg
+[2025-10-14 17:07:31] Starting database transaction
+[2025-10-14 17:07:31] Inserting product into database
+[2025-10-14 17:07:31] Product inserted with ID: 60
+[2025-10-14 17:07:31] Processing variants: []
+[2025-10-14 17:07:31] Committing transaction
+[2025-10-14 17:07:31] Product and variants added successfully
+[2025-10-31 10:48:19] Starting add_product.php
+[2025-10-31 10:48:19] Received POST data: {"productName":"Ink","productCategory":"1","productStock":"8","productBuyingPrice":"80","productSellingPrice":"90","productDescription":"","variants":"[]"}
+[2025-10-31 10:48:19] Received FILES data: {"productImages":{"name":["download (1).jpeg","download.jpeg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpCE3E.tmp","C:\\xampp\\tmp\\phpCE3F.tmp"],"error":[0,0],"size":[4227,4121]}}
+[2025-10-31 10:48:19] Using manual stock input: 8
+[2025-10-31 10:48:19] Calculated total stock from variants: 8
+[2025-10-31 10:48:19] Validated input: name='Ink', category_id=1, stock=8, buying_price=80, selling_price=90
+[2025-10-31 10:48:19] Processing image uploads
+[2025-10-31 10:48:19] Attempting to move uploaded file to: images/product_690485e3ac1b7.jpeg
+[2025-10-31 10:48:19] Successfully uploaded image: images/product_690485e3ac1b7.jpeg
+[2025-10-31 10:48:19] Attempting to move uploaded file to: images/product_690485e3af6ef.jpeg
+[2025-10-31 10:48:19] Successfully uploaded image: images/product_690485e3af6ef.jpeg
+[2025-10-31 10:48:19] Starting database transaction
+[2025-10-31 10:48:19] Inserting product into database
+[2025-10-31 10:48:19] Product inserted with ID: 61
+[2025-10-31 10:48:19] Processing variants: []
+[2025-10-31 10:48:19] Committing transaction
+[2025-10-31 10:48:19] Product and variants added successfully
+[2026-06-23 09:42:37] Starting add_product.php
+[2026-06-23 09:42:37] Received POST data: {"productName":"PS4 Controller","productCategory":"2","productStock":"20","productBuyingPrice":"3000","productSellingPrice":"5000","productDescription":"ps4 controler black","variantColor":["blue"],"variantSize":[""],"variantAdditionalPrice":[""],"variantStock":["20"],"variants":"[{\"color\":\"blue\",\"size\":null,\"additional_price\":0,\"stock\":20}]"}
+[2026-06-23 09:42:37] Received FILES data: {"productImages":{"name":["ps4.jpg"],"full_path":["ps4.jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpD65A.tmp"],"error":[0],"size":[7282]}}
+[2026-06-23 09:42:37] Calculated total stock from variants: 20
+[2026-06-23 09:42:37] Calculated total stock from variants: 20
+[2026-06-23 09:42:37] Validated input: name='PS4 Controller', category_id=2, stock=20, buying_price=3000, selling_price=5000
+[2026-06-23 09:42:37] Processing image uploads
+[2026-06-23 09:42:37] Attempting to move uploaded file to: images/product_6a3a38edb1d6e.jpg
+[2026-06-23 09:42:37] Successfully uploaded image: images/product_6a3a38edb1d6e.jpg
+[2026-06-23 09:42:37] Starting database transaction
+[2026-06-23 09:42:37] Inserting product into database
+[2026-06-23 09:42:37] Product inserted with ID: 62
+[2026-06-23 09:42:37] Processing variants: [{"color":"blue","size":null,"additional_price":0,"stock":20}]
+[2026-06-23 09:42:37] Inserting variant: color='blue', size='', additional_price=0, stock=20
+[2026-06-23 09:42:37] Variant inserted successfully
+[2026-06-23 09:42:37] Committing transaction
+[2026-06-23 09:42:37] Product and variants added successfully
+[2026-06-23 09:43:43] Starting add_product.php
+[2026-06-23 09:43:43] Received POST data: {"productName":"PS5 Controller","productCategory":"2","productStock":"40","productBuyingPrice":"5000","productSellingPrice":"10000","productDescription":"PS5 pro contoller","variantColor":["white","blue"],"variantSize":["",""],"variantAdditionalPrice":["",""],"variantStock":["20","020"],"variants":"[{\"color\":\"white\",\"size\":null,\"additional_price\":0,\"stock\":20},{\"color\":\"blue\",\"size\":null,\"additional_price\":0,\"stock\":20}]"}
+[2026-06-23 09:43:43] Received FILES data: {"productImages":{"name":["psg.jpg","ps4.jpg"],"full_path":["psg.jpg","ps4.jpg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpD954.tmp","C:\\xampp\\tmp\\phpD955.tmp"],"error":[0,0],"size":[3454,7282]}}
+[2026-06-23 09:43:43] Calculated total stock from variants: 40
+[2026-06-23 09:43:43] Calculated total stock from variants: 40
+[2026-06-23 09:43:43] Validated input: name='PS5 Controller', category_id=2, stock=40, buying_price=5000, selling_price=10000
+[2026-06-23 09:43:43] Processing image uploads
+[2026-06-23 09:43:43] Attempting to move uploaded file to: images/product_6a3a392fe20d7.jpg
+[2026-06-23 09:43:43] Successfully uploaded image: images/product_6a3a392fe20d7.jpg
+[2026-06-23 09:43:43] Attempting to move uploaded file to: images/product_6a3a392fe2b5e.jpg
+[2026-06-23 09:43:43] Successfully uploaded image: images/product_6a3a392fe2b5e.jpg
+[2026-06-23 09:43:43] Starting database transaction
+[2026-06-23 09:43:43] Inserting product into database
+[2026-06-23 09:43:43] Product inserted with ID: 63
+[2026-06-23 09:43:43] Processing variants: [{"color":"white","size":null,"additional_price":0,"stock":20},{"color":"blue","size":null,"additional_price":0,"stock":20}]
+[2026-06-23 09:43:43] Inserting variant: color='white', size='', additional_price=0, stock=20
+[2026-06-23 09:43:43] Variant inserted successfully
+[2026-06-23 09:43:43] Inserting variant: color='blue', size='', additional_price=0, stock=20
+[2026-06-23 09:43:43] Variant inserted successfully
+[2026-06-23 09:43:43] Committing transaction
+[2026-06-23 09:43:43] Product and variants added successfully
+[2026-06-23 10:02:00] Starting update_product.php
+[2026-06-23 10:02:00] Received POST data: {"editProductId":"62","editProductName":"PS4 Controller","editProductCategory":"2","editProductStock":"20","editProductBuyingPrice":"3000.00","editProductSellingPrice":"5000.00","editProductDescription":"ps4 controler black","variantColor":["blue"],"variantSize":["N\/A"],"variantAdditionalPrice":[""],"variantStock":["20"],"variants":"[{\"color\":\"blue\",\"size\":\"N\/A\",\"additional_price\":0,\"stock\":20}]"}
+[2026-06-23 10:02:00] Received FILES data: {"productImages":{"name":[""],"full_path":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+[2026-06-23 10:07:03] Starting add_product.php
+[2026-06-23 10:07:03] Received POST data: {"productName":"HDMI Cables","productCategory":"2","productStock":"50","productBuyingPrice":"2499.99","productSellingPrice":"3500","productDescription":"Hdmi cables long and short ones","variants":"[]"}
+[2026-06-23 10:07:03] Received FILES data: {"productImages":{"name":["hdmi.jpg"],"full_path":["hdmi.jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php33C4.tmp"],"error":[0],"size":[14353]}}
+[2026-06-23 10:07:03] Using manual stock input: 50
+[2026-06-23 10:07:03] Calculated total stock from variants: 50
+[2026-06-23 10:07:03] Validated input: name='HDMI Cables', category_id=2, stock=50, buying_price=2499.99, selling_price=3500
+[2026-06-23 10:07:03] Processing image uploads
+[2026-06-23 10:07:03] Attempting to move uploaded file to: images/product_6a3a3ea751837.jpg
+[2026-06-23 10:07:03] Successfully uploaded image: images/product_6a3a3ea751837.jpg
+[2026-06-23 10:07:03] Starting database transaction
+[2026-06-23 10:07:03] Inserting product into database
+[2026-06-23 10:07:03] Product inserted with ID: 64
+[2026-06-23 10:07:03] Processing variants: []
+[2026-06-23 10:07:03] Committing transaction
+[2026-06-23 10:07:03] Product and variants added successfully
+[2026-06-23 10:07:36] Starting add_product.php
+[2026-06-23 10:07:36] Received POST data: {"productName":"Type C Cable","productCategory":"2","productStock":"2","productBuyingPrice":"3000","productSellingPrice":"3500","productDescription":"","variants":"[]"}
+[2026-06-23 10:07:36] Received FILES data: {"productImages":{"name":["type c.jpg"],"full_path":["type c.jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpB5B7.tmp"],"error":[0],"size":[12363]}}
+[2026-06-23 10:07:36] Using manual stock input: 2
+[2026-06-23 10:07:36] Calculated total stock from variants: 2
+[2026-06-23 10:07:36] Validated input: name='Type C Cable', category_id=2, stock=2, buying_price=3000, selling_price=3500
+[2026-06-23 10:07:36] Processing image uploads
+[2026-06-23 10:07:36] Attempting to move uploaded file to: images/product_6a3a3ec8915c2.jpg
+[2026-06-23 10:07:36] Successfully uploaded image: images/product_6a3a3ec8915c2.jpg
+[2026-06-23 10:07:36] Starting database transaction
+[2026-06-23 10:07:36] Inserting product into database
+[2026-06-23 10:07:36] Product inserted with ID: 65
+[2026-06-23 10:07:36] Processing variants: []
+[2026-06-23 10:07:36] Committing transaction
+[2026-06-23 10:07:36] Product and variants added successfully
+[2026-06-23 10:08:46] Starting add_product.php
+[2026-06-23 10:08:46] Received POST data: {"productName":"Hdmi Converter","productCategory":"2","productStock":"34","productBuyingPrice":"1000","productSellingPrice":"1500","productDescription":"Converter ","variants":"[]"}
+[2026-06-23 10:08:46] Received FILES data: {"productImages":{"name":["converte.jpg"],"full_path":["converte.jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpC592.tmp"],"error":[0],"size":[13486]}}
+[2026-06-23 10:08:46] Using manual stock input: 34
+[2026-06-23 10:08:46] Calculated total stock from variants: 34
+[2026-06-23 10:08:46] Validated input: name='Hdmi Converter', category_id=2, stock=34, buying_price=1000, selling_price=1500
+[2026-06-23 10:08:46] Processing image uploads
+[2026-06-23 10:08:46] Attempting to move uploaded file to: images/product_6a3a3f0e37167.jpg
+[2026-06-23 10:08:46] Successfully uploaded image: images/product_6a3a3f0e37167.jpg
+[2026-06-23 10:08:46] Starting database transaction
+[2026-06-23 10:08:46] Inserting product into database
+[2026-06-23 10:08:46] Product inserted with ID: 66
+[2026-06-23 10:08:46] Processing variants: []
+[2026-06-23 10:08:46] Committing transaction
+[2026-06-23 10:08:46] Product and variants added successfully
+[2026-06-23 10:09:56] Starting add_product.php
+[2026-06-23 10:09:56] Received POST data: {"productName":"Headphones - JBL","productCategory":"1","productStock":"40","productBuyingPrice":"500","productSellingPrice":"12000","productDescription":"Longlasting jbl headphones made in china","variants":"[]"}
+[2026-06-23 10:09:56] Received FILES data: {"productImages":{"name":["jbl.jpg"],"full_path":["jbl.jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpD926.tmp"],"error":[0],"size":[5237]}}
+[2026-06-23 10:09:56] Using manual stock input: 40
+[2026-06-23 10:09:56] Calculated total stock from variants: 40
+[2026-06-23 10:09:56] Validated input: name='Headphones - JBL', category_id=1, stock=40, buying_price=500, selling_price=12000
+[2026-06-23 10:09:56] Processing image uploads
+[2026-06-23 10:09:56] Attempting to move uploaded file to: images/product_6a3a3f54b94ab.jpg
+[2026-06-23 10:09:56] Successfully uploaded image: images/product_6a3a3f54b94ab.jpg
+[2026-06-23 10:09:56] Starting database transaction
+[2026-06-23 10:09:56] Inserting product into database
+[2026-06-23 10:09:56] Product inserted with ID: 67
+[2026-06-23 10:09:56] Processing variants: []
+[2026-06-23 10:09:56] Committing transaction
+[2026-06-23 10:09:56] Product and variants added successfully
+[2026-06-23 10:11:05] Starting add_product.php
+[2026-06-23 10:11:05] Received POST data: {"productName":"Phone case - Iphone ","productCategory":"1","productStock":"6","productBuyingPrice":"800","productSellingPrice":"1000","productDescription":"iphone 17 case","variantColor":["blue","pink"],"variantSize":["N\/A","N\/A"],"variantAdditionalPrice":["",""],"variantStock":["3","3"],"variants":"[{\"color\":\"blue\",\"size\":\"N\/A\",\"additional_price\":0,\"stock\":3},{\"color\":\"pink\",\"size\":\"N\/A\",\"additional_price\":0,\"stock\":3}]"}
+[2026-06-23 10:11:05] Received FILES data: {"productImages":{"name":["iphone 1.jpg","iphone.jpg"],"full_path":["iphone 1.jpg","iphone.jpg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpE586.tmp","C:\\xampp\\tmp\\phpE587.tmp"],"error":[0,0],"size":[20692,21395]}}
+[2026-06-23 10:11:05] Calculated total stock from variants: 6
+[2026-06-23 10:11:05] Calculated total stock from variants: 6
+[2026-06-23 10:11:05] Validated input: name='Phone case - Iphone ', category_id=1, stock=6, buying_price=800, selling_price=1000
+[2026-06-23 10:11:05] Processing image uploads
+[2026-06-23 10:11:05] Attempting to move uploaded file to: images/product_6a3a3f996e0f4.jpg
+[2026-06-23 10:11:05] Successfully uploaded image: images/product_6a3a3f996e0f4.jpg
+[2026-06-23 10:11:05] Attempting to move uploaded file to: images/product_6a3a3f996efd7.jpg
+[2026-06-23 10:11:05] Successfully uploaded image: images/product_6a3a3f996efd7.jpg
+[2026-06-23 10:11:05] Starting database transaction
+[2026-06-23 10:11:05] Inserting product into database
+[2026-06-23 10:11:05] Product inserted with ID: 68
+[2026-06-23 10:11:05] Processing variants: [{"color":"blue","size":"N\/A","additional_price":0,"stock":3},{"color":"pink","size":"N\/A","additional_price":0,"stock":3}]
+[2026-06-23 10:11:05] Inserting variant: color='blue', size='N/A', additional_price=0, stock=3
+[2026-06-23 10:11:05] Variant inserted successfully
+[2026-06-23 10:11:05] Inserting variant: color='pink', size='N/A', additional_price=0, stock=3
+[2026-06-23 10:11:05] Variant inserted successfully
+[2026-06-23 10:11:05] Committing transaction
+[2026-06-23 10:11:05] Product and variants added successfully
+[2026-06-23 12:31:27] Starting remove_product_image.php
+[2026-06-23 12:31:27] Received input: {"product_id":68,"image_path":"images\/product_6a3a3f996efd7.jpg"}
+[2026-06-23 12:31:27] Validated input: product_id=68, image_path=images/product_6a3a3f996efd7.jpg
+[2026-06-23 12:31:27] Fetching existing images for product ID: 68
+[2026-06-23 12:31:27] Existing images: images/product_6a3a3f996e0f4.jpg,images/product_6a3a3f996efd7.jpg
+[2026-06-23 12:31:27] New images after removal: images/product_6a3a3f996e0f4.jpg
+[2026-06-23 12:31:27] Updating product images in database
+[2026-06-23 12:31:27] Images updated successfully
+[2026-06-23 12:31:27] Image file not found: images/product_6a3a3f996efd7.jpg
+[2026-06-23 12:31:27] Image removed successfully
+[2026-06-23 12:31:30] Starting remove_product_image.php
+[2026-06-23 12:31:30] Received input: {"product_id":68,"image_path":"images\/product_6a3a3f996e0f4.jpg"}
+[2026-06-23 12:31:30] Validated input: product_id=68, image_path=images/product_6a3a3f996e0f4.jpg
+[2026-06-23 12:31:30] Fetching existing images for product ID: 68
+[2026-06-23 12:31:30] Existing images: images/product_6a3a3f996e0f4.jpg
+[2026-06-23 12:31:30] New images after removal: 
+[2026-06-23 12:31:30] Updating product images in database
+[2026-06-23 12:31:30] Images updated successfully
+[2026-06-23 12:31:30] Image file not found: images/product_6a3a3f996e0f4.jpg
+[2026-06-23 12:31:30] Image removed successfully
+[2026-06-23 12:31:39] Starting update_product.php
+[2026-06-23 12:31:39] Received POST data: {"editProductId":"68","editProductName":"Phone case - Iphone ","editProductCategory":"1","editProductStock":"6","editProductBuyingPrice":"800.00","editProductSellingPrice":"1000.00","editProductDescription":"iphone 17 case","variantColor":["blue","pink"],"variantSize":["N\/A","N\/A"],"variantAdditionalPrice":["0.00","0.00"],"variantStock":["3","3"],"variants":"[{\"color\":\"blue\",\"size\":\"N\/A\",\"additional_price\":0,\"stock\":3},{\"color\":\"pink\",\"size\":\"N\/A\",\"additional_price\":0,\"stock\":3}]"}
+[2026-06-23 12:31:39] Received FILES data: {"productImages":{"name":["default (2).jpg","default.jpg"],"full_path":["default (2).jpg","default.jpg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php95ED.tmp","C:\\xampp\\tmp\\php95EE.tmp"],"error":[0,0],"size":[20692,21395]}}
+[2026-06-23 13:50:16] Starting add_product.php
+[2026-06-23 13:50:16] Received POST data: {"productName":"Computer Mouse","productCategory":"2","productStock":"40","productBuyingPrice":"500","productSellingPrice":"1000","productDescription":"Wired HP computer Mouse\ud83d\ude01 \ud83d\uddb1\ufe0f","variantColor":["White","black"],"variantSize":["N\/A","N\/A"],"variantAdditionalPrice":["",""],"variantStock":["20","20"],"variants":"[{\"color\":\"White\",\"size\":\"N\/A\",\"additional_price\":0,\"stock\":20},{\"color\":\"black\",\"size\":\"N\/A\",\"additional_price\":0,\"stock\":20}]"}
+[2026-06-23 13:50:16] Received FILES data: {"productImages":{"name":["images (1).jpg","images.jpg"],"full_path":["images (1).jpg","images.jpg"],"type":["image\/jpeg","image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php92C5.tmp","C:\\xampp\\tmp\\php92C6.tmp"],"error":[0,0],"size":[13871,14221]}}
+[2026-06-23 13:50:16] Calculated total stock from variants: 40
+[2026-06-23 13:50:16] Calculated total stock from variants: 40
+[2026-06-23 13:50:16] Validated input: name='Computer Mouse', category_id=2, stock=40, buying_price=500, selling_price=1000
+[2026-06-23 13:50:16] Processing image uploads
+[2026-06-23 13:50:16] Attempting to move uploaded file to: images/product_6a3a72f8f398a.jpg
+[2026-06-23 13:50:17] Successfully uploaded image: images/product_6a3a72f8f398a.jpg
+[2026-06-23 13:50:17] Attempting to move uploaded file to: images/product_6a3a72f900e74.jpg
+[2026-06-23 13:50:17] Successfully uploaded image: images/product_6a3a72f900e74.jpg
+[2026-06-23 13:50:17] Starting database transaction
+[2026-06-23 13:50:17] Inserting product into database
+[2026-06-23 13:50:17] Product inserted with ID: 69
+[2026-06-23 13:50:17] Processing variants: [{"color":"White","size":"N\/A","additional_price":0,"stock":20},{"color":"black","size":"N\/A","additional_price":0,"stock":20}]
+[2026-06-23 13:50:17] Inserting variant: color='White', size='N/A', additional_price=0, stock=20
+[2026-06-23 13:50:17] Variant inserted successfully
+[2026-06-23 13:50:17] Inserting variant: color='black', size='N/A', additional_price=0, stock=20
+[2026-06-23 13:50:17] Variant inserted successfully
+[2026-06-23 13:50:17] Committing transaction
+[2026-06-23 13:50:17] Product and variants added successfully
+[2026-06-23 13:51:39] Starting add_product.php
+[2026-06-23 13:51:39] Received POST data: {"productName":"Subwoofer","productCategory":"2","productStock":"20","productBuyingPrice":"3000","productSellingPrice":"6000","productDescription":"Sayona pps subwoofer","variants":"[]"}
+[2026-06-23 13:51:39] Received FILES data: {"productImages":{"name":["images (2).jpg"],"full_path":["images (2).jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpD5D6.tmp"],"error":[0],"size":[29357]}}
+[2026-06-23 13:51:39] Using manual stock input: 20
+[2026-06-23 13:51:39] Calculated total stock from variants: 20
+[2026-06-23 13:51:39] Validated input: name='Subwoofer', category_id=2, stock=20, buying_price=3000, selling_price=6000
+[2026-06-23 13:51:39] Processing image uploads
+[2026-06-23 13:51:39] Attempting to move uploaded file to: images/product_6a3a734baca4f.jpg
+[2026-06-23 13:51:39] Successfully uploaded image: images/product_6a3a734baca4f.jpg
+[2026-06-23 13:51:39] Starting database transaction
+[2026-06-23 13:51:39] Inserting product into database
+[2026-06-23 13:51:39] Product inserted with ID: 70
+[2026-06-23 13:51:39] Processing variants: []
+[2026-06-23 13:51:39] Committing transaction
+[2026-06-23 13:51:39] Product and variants added successfully
+[2026-06-23 13:52:35] Starting add_product.php
+[2026-06-23 13:52:35] Received POST data: {"productName":"BT Speaker","productCategory":"1","productStock":"2","productBuyingPrice":"2000","productSellingPrice":"4000","productDescription":"","variants":"[]"}
+[2026-06-23 13:52:35] Received FILES data: {"productImages":{"name":["download (2).jpg"],"full_path":["download (2).jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpADF7.tmp"],"error":[0],"size":[5052]}}
+[2026-06-23 13:52:35] Using manual stock input: 2
+[2026-06-23 13:52:35] Calculated total stock from variants: 2
+[2026-06-23 13:52:35] Validated input: name='BT Speaker', category_id=1, stock=2, buying_price=2000, selling_price=4000
+[2026-06-23 13:52:35] Processing image uploads
+[2026-06-23 13:52:35] Attempting to move uploaded file to: images/product_6a3a738303c68.jpg
+[2026-06-23 13:52:35] Successfully uploaded image: images/product_6a3a738303c68.jpg
+[2026-06-23 13:52:35] Starting database transaction
+[2026-06-23 13:52:35] Inserting product into database
+[2026-06-23 13:52:35] Product inserted with ID: 71
+[2026-06-23 13:52:35] Processing variants: []
+[2026-06-23 13:52:35] Committing transaction
+[2026-06-23 13:52:35] Product and variants added successfully
+[2026-06-23 13:53:28] Starting add_product.php
+[2026-06-23 13:53:28] Received POST data: {"productName":"Oraimo Ear buds","productCategory":"1","productStock":"44","productBuyingPrice":"600","productSellingPrice":"890","productDescription":"","variants":"[]"}
+[2026-06-23 13:53:28] Received FILES data: {"productImages":{"name":["download (3).jpg"],"full_path":["download (3).jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php7F61.tmp"],"error":[0],"size":[3511]}}
+[2026-06-23 13:53:28] Using manual stock input: 44
+[2026-06-23 13:53:28] Calculated total stock from variants: 44
+[2026-06-23 13:53:28] Validated input: name='Oraimo Ear buds', category_id=1, stock=44, buying_price=600, selling_price=890
+[2026-06-23 13:53:28] Processing image uploads
+[2026-06-23 13:53:28] Attempting to move uploaded file to: images/product_6a3a73b899d2e.jpg
+[2026-06-23 13:53:28] Successfully uploaded image: images/product_6a3a73b899d2e.jpg
+[2026-06-23 13:53:28] Starting database transaction
+[2026-06-23 13:53:28] Inserting product into database
+[2026-06-23 13:53:28] Product inserted with ID: 72
+[2026-06-23 13:53:28] Processing variants: []
+[2026-06-23 13:53:28] Committing transaction
+[2026-06-23 13:53:28] Product and variants added successfully
+[2026-06-23 13:57:12] Starting add_product.php
+[2026-06-23 13:57:12] Received POST data: {"productName":"earbuds","productCategory":"1","productStock":"4","productBuyingPrice":"300","productSellingPrice":"2900","productDescription":"","variants":"[]"}
+[2026-06-23 13:57:12] Received FILES data: {"productImages":{"name":["download (2).jpg"],"full_path":["download (2).jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\phpEA62.tmp"],"error":[0],"size":[5052]}}
+[2026-06-23 13:57:12] Using manual stock input: 4
+[2026-06-23 13:57:12] Calculated total stock from variants: 4
+[2026-06-23 13:57:12] Validated input: name='earbuds', category_id=1, stock=4, buying_price=300, selling_price=2900
+[2026-06-23 13:57:12] Processing image uploads
+[2026-06-23 13:57:12] Attempting to move uploaded file to: images/product_6a3a749897726.jpg
+[2026-06-23 13:57:12] Successfully uploaded image: images/product_6a3a749897726.jpg
+[2026-06-23 13:57:12] Starting database transaction
+[2026-06-23 13:57:12] Inserting product into database
+[2026-06-23 13:57:12] Product inserted with ID: 73
+[2026-06-23 13:57:12] Processing variants: []
+[2026-06-23 13:57:12] Committing transaction
+[2026-06-23 13:57:12] Product and variants added successfully
+[2026-06-23 13:57:41] Starting add_product.php
+[2026-06-23 13:57:41] Received POST data: {"productName":"Woofer","productCategory":"1","productStock":"44","productBuyingPrice":"5000","productSellingPrice":"10000","productDescription":"","variants":"[]"}
+[2026-06-23 13:57:41] Received FILES data: {"productImages":{"name":["images (2).jpg"],"full_path":["images (2).jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php5C19.tmp"],"error":[0],"size":[29357]}}
+[2026-06-23 13:57:41] Using manual stock input: 44
+[2026-06-23 13:57:41] Calculated total stock from variants: 44
+[2026-06-23 13:57:41] Validated input: name='Woofer', category_id=1, stock=44, buying_price=5000, selling_price=10000
+[2026-06-23 13:57:41] Processing image uploads
+[2026-06-23 13:57:41] Attempting to move uploaded file to: images/product_6a3a74b5b43d9.jpg
+[2026-06-23 13:57:41] Successfully uploaded image: images/product_6a3a74b5b43d9.jpg
+[2026-06-23 13:57:41] Starting database transaction
+[2026-06-23 13:57:41] Inserting product into database
+[2026-06-23 13:57:41] Product inserted with ID: 74
+[2026-06-23 13:57:41] Processing variants: []
+[2026-06-23 13:57:41] Committing transaction
+[2026-06-23 13:57:41] Product and variants added successfully
+[2026-06-23 14:00:03] Starting add_product.php
+[2026-06-23 14:00:03] Received POST data: {"productName":"SamsungTV","productCategory":"1","productStock":"3","productBuyingPrice":"40000","productSellingPrice":"80000","productDescription":"72 Inch","variants":"[]"}
+[2026-06-23 14:00:03] Received FILES data: {"productImages":{"name":["images (3).jpg"],"full_path":["images (3).jpg"],"type":["image\/jpeg"],"tmp_name":["C:\\xampp\\tmp\\php841A.tmp"],"error":[0],"size":[48698]}}
+[2026-06-23 14:00:03] Using manual stock input: 3
+[2026-06-23 14:00:03] Calculated total stock from variants: 3
+[2026-06-23 14:00:03] Validated input: name='SamsungTV', category_id=1, stock=3, buying_price=40000, selling_price=80000
+[2026-06-23 14:00:03] Processing image uploads
+[2026-06-23 14:00:03] Attempting to move uploaded file to: images/product_6a3a75430e247.jpg
+[2026-06-23 14:00:03] Successfully uploaded image: images/product_6a3a75430e247.jpg
+[2026-06-23 14:00:03] Starting database transaction
+[2026-06-23 14:00:03] Inserting product into database
+[2026-06-23 14:00:03] Product inserted with ID: 75
+[2026-06-23 14:00:03] Processing variants: []
+[2026-06-23 14:00:03] Committing transaction
+[2026-06-23 14:00:03] Product and variants added successfully

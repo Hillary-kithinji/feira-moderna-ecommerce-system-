@@ -1,0 +1,10 @@
+No items found for filter_type: day, filter_value: 2025-09-17, query: SELECT p.name, oi.quantity, (oi.quantity * oi.price) as item_total
+              FROM order_items oi
+              JOIN products p ON oi.product_id = p.id
+              JOIN orders o ON oi.order_id = o.id
+              WHERE o.status = 'delivered' AND DATE(o.created_at) = ?
+No items found for filter_type: day, filter_value: 2025-09-17, query: SELECT p.name, oi.quantity, (oi.quantity * oi.price) as item_total
+              FROM order_items oi
+              JOIN products p ON oi.product_id = p.id
+              JOIN orders o ON oi.order_id = o.id
+              WHERE o.status = 'delivered' AND DATE(o.created_at) = ?
